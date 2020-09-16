@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CS498DL Assignment 1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h2>Fall 2020 CS498DL</h2>
+        <h2>Assignment 1: Linear classifiers</h2>
+        <h3>Due date: Friday, September 18th, 11:59:59PM</h3>
+
+        <img src="assignment1/cifar10_images.png" width="600">
+        <br>
+        <small>Credit: Junting Wang, Adam Stewart</small>
+        <br>
+        <br>
+
+        <p>In this assignment you will implement simple linear classifiers and run them on two different datasets:</p>
+        <p>
+            <ol>
+                <li><a href="https://archive.ics.uci.edu/ml/datasets/Mushroom">Mushroom dataset</a>: a simple categorical binary classification dataset
+                <li><a href="https://www.cs.toronto.edu/~kriz/cifar.html">CIFAR-10</a>: a multi-class image classification dataset
+            </ol>
+        </p>
+        <p>The goal of this assignment is to help you understand the fundamentals of a few classic methods and become familiar with scientific computing tools in Python. You will also get experience in hyperparameter tuning and using proper train/validation/test data splits.</p>
+
+        <p><b>Download the starting code <a href="https://slazebni.cs.illinois.edu/fall20/assignment1/assignment1.zip">here</a>.</b></p>
+
+        <p>You will implement the following classifiers (in their respective files):</p>
+        <p>
+            <ol>
+                <li>Logistic regression (<code>Logistic.py</code>)</li>
+                <li>Perceptron (<code>Perceptron.py</code>)</li>
+                <li>SVM (<code>SVM.py</code>)</li>
+                <li>Softmax (<code>Softmax.py</code>)</li>
+            </ol>
+        </p>
+
+        <p>For the logistic regression classifier, multi-class prediction is difficult, as it requires a 1v1 or 1vRest classifier for every class. Therefore, you only need to use logistic regression on the Mushroom dataset.</p>
+
+        <p>The top-level notebook (<code>CS 498DL Assignment-1.ipynb</code>) will guide you through all of the steps. Setup instructions are below. The format of this assignment is inspired by the <a href="https://cs231n.github.io/assignments2020/assignment1/">Stanford CS231n assignments</a>, and we have borrowed some of their data loading and instructions in our assignment IPython notebook.</p>
+
+        <p>None of the parts of this assignment require the use of a machine with a GPU. You may complete the assignment using your local machine or you may use <a href="https://colab.research.google.com/">Google Colaboratory</a>.</p>
+
+        <h3>Environment Setup (Local)</h3>
+
+        <p>If you will be completing the assignment on a local machine then you will need a Python environment set up with the appropriate packages.</p>
+
+        <p>We suggest that you use Anaconda to manage Python package dependencies (<a href="https://www.anaconda.com/download">https://www.anaconda.com/download</a>). This guide provides useful information on how to use Conda: <a href="https://conda.io/docs/user-guide/getting-started.html">https://conda.io/docs/user-guide/getting-started.html</a>.</p>
+
+        <h3>Data Setup (Local)</h3>
+
+        <p>Once you have downloaded the zip file, navigate to the <code>cifar10</code> directory in Assignment1 and execute the <code>get_datasets</code> script provided:</p>
+        <pre><code>
+$ cd assignment1/cifar/
+$ python3 get_datasets.py
+        </code></pre>
+        <p>The Mushroom dataset is small enough that we've included it in the zip file.</p>
+
+        <h3>Data Setup (For Colaboratory)</h3>
+
+        <p>If you are using Google Colaboratory for this assignment, all of the Python packages you need will already be installed. The only thing you need to do is download the datasets and make them available to your account.</p>
+
+        <p>Download the assignment zip file and follow the steps above to download CIFAR-10 to your local machine. Next, you should make a folder in your Google Drive to hold all of your assignment files and upload the entire assignment folder (including the datasets you downloaded) into this Google drive file.</p>
+
+        <p>You will now need to open the assignment 1 IPython notebook file from your Google Drive folder in Colaboratory and run a few setup commands. You can find a detailed tutorial on these steps <a href="https://medium.com/deep-learning-turkey/google-colab-free-gpu-tutorial-e113627b9f5d">here</a> (no need to worry about setting up GPU for now). However, we have condensed all the important commands you need to run into an <b><a href="assignment1/colab_setup.ipynb">IPython notebook</a></b>.</p>
+
+        <h3>IPython</h3>
+
+        <p>The assignment is given to you in the <code>CS 498DL Assignment-1.ipynb</code> file. As mentioned, if you are using Colaboratory, you can open the IPython notebook directly in Colaboratory. If you are using a local machine, ensure that IPython is installed (<a href="https://ipython.org/install.html">https://ipython.org/install.html</a>). You may then navigate to the assignment directory in the terminal and start a local IPython server using the <code>jupyter notebook</code> command.</p>
+
+        <h3>Submission Instructions</h3>
+
+        <p>Submission of this assignment will involve two steps:</p>
+        <p>
+            <ol>
+                <li>You must submit your <b>output Kaggle CSV files</b> from each model on the CIFAR-10 dataset to their corresponding Kaggle competition webpages:</li>
+                <ul>
+                    <li>Perceptron: <a href="https://www.kaggle.com/c/fall20-cs498dl-assignment-1-perceptron">https://www.kaggle.com/c/fall20-cs498dl-assignment-1-perceptron</a></li>
+                    <li>SVM: <a href="https://www.kaggle.com/c/fall20-cs498dl-assignment-1-svm">https://www.kaggle.com/c/fall20-cs498dl-assignment-1-svm</a></li>
+                    <li>Softmax: <a href="https://www.kaggle.com/c/fall20-cs498dl-assignment-1-softmax">https://www.kaggle.com/c/fall20-cs498dl-assignment-1-softmax</a></li>
+                </ul>
+                The baseline accuracies you should approximately reach are listed as benchmarks on each respective Kaggle leaderboard.
+                <br>
+                <br>
+                <li>You must upload three files on <b><a href="https://compass2g.illinois.edu/">Compass 2g</a></b>:
+                <ol>
+                    <li>All of your code (Python files and ipynb file) <b>in a single ZIP file</b>. The filename should be <b>netid_mp1_code.zip</b>.
+                    <li>Your IPython notebook <b>with output cells</b> converted to <b>PDF format</b>. The filename should be <b>netid_mp1_output.pdf</b>.
+                    <li>A brief report <b>in PDF format</b> using <a href="https://docs.google.com/document/d/1FYnPM0MprpQ56cQr55DuyIA7d5F5QMUfjNFUDKdXbgM/edit">this template</a>. The filename should be <b>netid_mp1_report.pdf</b>.
+                </ol>
+                <em>Don't forget to hit "Submit" after uploading your files, otherwise we will not receive your submission!</em>
+            </ol>
+        </p>
+
+        <p>Please refer to <a href="http://slazebni.cs.illinois.edu/fall20/policies.html">course policies</a> on collaborations, late submission, and extension requests.</p>
+    </body>
+</html>
