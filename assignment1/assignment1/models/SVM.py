@@ -13,11 +13,12 @@ class SVM:
             epochs: the number of epochs to train for
             reg_const: the regularization constant
         """
-        self.w = None  # TODO: change this
+        self.w = [[] for _ in range(n_class)]  # TODO: change this
         self.alpha = lr
         self.epochs = epochs
         self.reg_const = reg_const
         self.n_class = n_class
+        self.batch_size = 100
 
     def calc_gradient(self, X_train: np.ndarray, y_train: np.ndarray) -> np.ndarray:
         """Calculate gradient of the svm hinge loss.
@@ -36,7 +37,16 @@ class SVM:
                 as w
         """
         # TODO: implement me
-        return
+        grad_w_yi = np.zeros(self.w.shape)
+        grad_w_yi += self.reg_const * abs(self.w)
+        for i, data_point in enumerate(X_train):
+            result = [np.inner(data_point, self.w[n]) for n in range(self.n_class)]
+            gt_label = y_train[i]
+            for c in range(self.n_class):
+                if c != gt_label and result[gt_label] - result[c] < 1:
+                    grad_w_yi[gt_label] -= data_point / len(data_point)  # BUG: sign
+                    grad_w_yi[c] += data_point / len(data_point)
+        return grad_w_yi
 
     def train(self, X_train: np.ndarray, y_train: np.ndarray):
         """Train the classifier.
@@ -49,6 +59,22 @@ class SVM:
             y_train: a numpy array of shape (N,) containing training labels
         """
         # TODO: implement me
+        N, D = X_train.shape
+        for i in range(len(self.w)):
+            self.w[i] = np.random.rand(D) * 0.0001    # init all class w as random
+        self.w = np.array(self.w)
+        # implements mini-batch gradient descent
+        n_batch = int(N / self.batch_size)
+        # random shuffle X_train, y_train
+        n_shuffle = np.random.permutation(N)
+        X_train_cp, y_train_cp = X_train.copy()[n_shuffle], y_train.copy()[n_shuffle]
+        for e in range(self.epochs):
+            for n in range(n_batch):
+                start = self.batch_size * n
+                end = self.batch_size * (n + 1)
+                grad = self.calc_gradient(X_train_cp[start:end], y_train_cp[start:end])
+                self.w -= self.alpha * grad
+            # print('Trained ', e, ' epochs: train_acc=', np.sum(self.predict(X_train) == y_train) / len(y_train) * 100, '%')
         return
 
     def predict(self, X_test: np.ndarray) -> np.ndarray:
@@ -64,4 +90,9 @@ class SVM:
                 class.
         """
         # TODO: implement me
-        return
+        retval = np.zeros(len(X_test)).astype(int)
+        for i, data_point in enumerate(X_test):
+            prediction = [np.inner(data_point, self.w[n]) for n in range(self.n_class)]  # len n
+            retval[i] = int(np.argsort(prediction)[::-1][0])
+        return retval
+# Reference: Lecture 5, https://piazza.com/class/kdyxzd9ldz23vn?cid=66
