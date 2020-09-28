@@ -42,7 +42,7 @@ class Perceptron:
                 # if np.sign(np.inner(self.w, data_point)) != y_train[i]:
                 #     self.w += self.lr * y_train[i] * data_point
             # print('Trained ', e, ' epochs: train_acc=', np.sum(self.predict(X_train) == y_train) / len(y_train) * 100, '%')
-            self.lr /= 2
+            # self.lr /= 2
         # print('finish training')
 
     def predict(self, X_test: np.ndarray) -> np.ndarray:

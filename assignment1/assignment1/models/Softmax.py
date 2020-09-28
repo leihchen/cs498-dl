@@ -22,7 +22,7 @@ def softmax(X):
 #     return grad
 
 class Softmax:
-    def __init__(self, n_class: int, lr: float, epochs: int, reg_const: float):
+    def __init__(self, n_class: int, lr: float, epochs: int, reg_const: float, batch_num):
         """Initialize a new classifier.
 
         Parameters:
@@ -36,7 +36,7 @@ class Softmax:
         self.epochs = epochs
         self.reg_const = reg_const
         self.n_class = n_class
-        self.batch_size = 100
+        self.batch_size = batch_num
 
     def calc_gradient(self, X_train: np.ndarray, y_train: np.ndarray) -> np.ndarray:
         """Calculate gradient of the softmax loss.

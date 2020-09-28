@@ -10,6 +10,7 @@ from data_process import get_CIFAR10_data, get_MUSHROOM_data
 from scipy.spatial import distance
 from models import Perceptron, SVM, Softmax, Logistic
 from kaggle_submission import output_submission_csv
+from tqdm import tqdm
 # get_ipython().run_line_magic('matplotlib', 'inline')
 print('finish')
 
@@ -104,37 +105,43 @@ def get_acc(pred, y_test):
 # ## Train Perceptron on CIFAR
 
 # In[8]:
-
-
-# lr = 0.5
-# n_epochs = 10
-# print(y_train_CIFAR)
-# percept_CIFAR = Perceptron(n_class_CIFAR, lr, n_epochs)
-# percept_CIFAR.train(X_train_CIFAR, y_train_CIFAR)
+lr_list = [.5, .05, .005]
+n_epochs_list = [10, 20]
+batch_list = [100, 200]
+reg_list = [.05, .025]
+best_acc = -1
+best = None
+# for i in tqdm(range(len(lr_list))):
+#     for j in tqdm(range(len(n_epochs_list))):
+#         lr = lr_list[i]
+#         n_epochs = n_epochs_list[i]
+#         # print(y_train_CIFAR)
+#         percept_CIFAR = Perceptron(n_class_CIFAR, lr, n_epochs)
+#         percept_CIFAR.train(X_train_CIFAR, y_train_CIFAR)
 #
 #
-# # In[9]:
+#         # In[9]:
 #
 #
-# pred_percept = percept_CIFAR.predict(X_train_CIFAR)
-# print('The training accuracy is given by: %f' % (get_acc(pred_percept, y_train_CIFAR)))
+#         # pred_percept = percept_CIFAR.predict(X_train_CIFAR)
+#         # print('The training accuracy is given by: %f' % (get_acc(pred_percept, y_train_CIFAR)))
 #
-# # ### Validate Perceptron on CIFAR
+#         # ### Validate Perceptron on CIFAR
 #
-# # In[10]:
-#
-#
-# pred_percept = percept_CIFAR.predict(X_val_CIFAR)
-# print('The validation accuracy is given by: %f' % (get_acc(pred_percept, y_val_CIFAR)))
+#         # In[10]:
 #
 #
-# # ### Test Perceptron on CIFAR
+#         # pred_percept = percept_CIFAR.predict(X_val_CIFAR)
+#         # print('The validation accuracy is given by: %f' % (get_acc(pred_percept, y_val_CIFAR)))
 #
-# # In[11]:
+#
+#         # ### Test Perceptron on CIFAR
+#
+#         # In[11]:
 #
 #
-# pred_percept = percept_CIFAR.predict(X_test_CIFAR)
-# print('The testing accuracy is given by: %f' % (get_acc(pred_percept, y_test_CIFAR)))
+#         pred_percept = percept_CIFAR.predict(X_test_CIFAR)
+#         # print('The testing accuracy is given by: %f' % (get_acc(pred_percept, y_test_CIFAR)))
 #
 #
 # # ### Perceptron_CIFAR Kaggle Submission
@@ -143,18 +150,20 @@ def get_acc(pred, y_test):
 #
 # # In[12]:
 #
-#
-# output_submission_csv('kaggle/perceptron_submission_CIFAR.csv', percept_CIFAR.predict(X_test_CIFAR))
-#
-#
-# # ## Train Perceptron on Mushroom
-#
-# # In[ ]:
-#
-#
-# # lr =
-# # n_epochs =
-#
+#         if get_acc(pred_percept, y_test_CIFAR) > best_acc:
+#             best_acc = get_acc(pred_percept, y_test_CIFAR)
+#             best = (lr_list[i], n_epochs_list[i], best_acc)
+#             output_submission_csv('kaggle/perceptron_submission_CIFAR.csv', percept_CIFAR.predict(X_test_CIFAR))
+# print("@@@@@@@@@@@@@@@", best)
+# exit(0)
+# ## Train Perceptron on Mushroom
+
+# In[ ]:
+
+
+# lr =
+# n_epochs =
+
 # percept_MR = Perceptron(n_class_MR, lr, n_epochs)
 # percept_MR.train(X_train_MR, y_train_MR)
 #
@@ -182,110 +191,124 @@ def get_acc(pred, y_test):
 #
 # pred_percept = percept_MR.predict(X_test_MR)
 # print('The testing accuracy is given by: %f' % (get_acc(pred_percept, y_test_MR)))
-
-# # Support Vector Machines (with SGD)
-
-# Next, you will implement a "soft margin" SVM. In this formulation you will maximize the margin between positive and negative training examples and penalize margin violations using a hinge loss.
-# 
-# We will optimize the SVM loss using SGD. This means you must compute the loss function with respect to model weights. You will use this gradient to update the model weights.
-# 
-# SVM optimized with SGD has 3 hyperparameters that you can experiment with :
-# - **Learning rate** - similar to as defined above in Perceptron, this parameter scales by how much the weights are changed according to the calculated gradient update. 
-# - **Epochs** - similar to as defined above in Perceptron.
-# - **Regularization constant** - Hyperparameter to determine the strength of regularization. In this case it is a coefficient on the term which maximizes the margin. You could try different values. The default value is set to 0.05.
-
-# You will implement the SVM using SGD in the **models/SVM.py**
-# 
-# The following code: 
-# - Creates an instance of the SVM classifier class 
-# - The train function of the SVM class is trained on the training data
-# - We use the predict function to find the training accuracy as well as the testing accuracy
-
-# ## Train SVM on CIFAR
-
-# In[ ]:
-
-
-# lr = 0.3
-# n_epochs = 10
-# reg_const = 0.05
 #
-# svm_CIFAR = SVM(n_class_CIFAR, lr, n_epochs, reg_const)
-# svm_CIFAR.train(X_train_CIFAR, y_train_CIFAR)
+# # # Support Vector Machines (with SGD)
 #
-#
-# # In[ ]:
-#
-#
-# pred_svm = svm_CIFAR.predict(X_train_CIFAR)
-# print('The training accuracy is given by: %f' % (get_acc(pred_svm, y_train_CIFAR)))
-#
-#
-# # ### Validate SVM on CIFAR
-#
-# # In[ ]:
-#
-#
-# pred_svm = svm_CIFAR.predict(X_val_CIFAR)
-# print('The validation accuracy is given by: %f' % (get_acc(pred_svm, y_val_CIFAR)))
-#
-#
-# # ### Test SVM on CIFAR
-#
-# # In[ ]:
-#
-#
-# pred_svm = svm_CIFAR.predict(X_test_CIFAR)
-# print('The testing accuracy is given by: %f' % (get_acc(pred_svm, y_test_CIFAR)))
-#
-#
-# # ### SVM_CIFAR Kaggle Submission
+# # Next, you will implement a "soft margin" SVM. In this formulation you will maximize the margin between positive and negative training examples and penalize margin violations using a hinge loss.
 # #
-# # Once you are satisfied with your solution and test accuracy output a file to submit your test set predictions to the Kaggle for Assignment 1 CIFAR. Use the following code to do so:
+# # We will optimize the SVM loss using SGD. This means you must compute the loss function with respect to model weights. You will use this gradient to update the model weights.
+# #
+# # SVM optimized with SGD has 3 hyperparameters that you can experiment with :
+# # - **Learning rate** - similar to as defined above in Perceptron, this parameter scales by how much the weights are changed according to the calculated gradient update.
+# # - **Epochs** - similar to as defined above in Perceptron.
+# # - **Regularization constant** - Hyperparameter to determine the strength of regularization. In this case it is a coefficient on the term which maximizes the margin. You could try different values. The default value is set to 0.05.
+#
+# # You will implement the SVM using SGD in the **models/SVM.py**
+# #
+# # The following code:
+# # - Creates an instance of the SVM classifier class
+# # - The train function of the SVM class is trained on the training data
+# # - We use the predict function to find the training accuracy as well as the testing accuracy
+#
+# # ## Train SVM on CIFAR
 #
 # # In[ ]:
 #
+# for i in tqdm(range(len(lr_list))):
+#     for j in tqdm(range(len(n_epochs_list))):
+#         for k in range(len(reg_list)):
+#             for l in range(len(batch_list)):
+#                 lr = lr_list[i]
+#                 n_epochs = n_epochs_list[j]
+#                 reg_const = reg_list[k]
+#                 batch_num = batch_list[l]
 #
-# output_submission_csv('kaggle/svm_submission_CIFAR.csv', svm_CIFAR.predict(X_test_CIFAR))
+#                 svm_CIFAR = SVM(n_class_CIFAR, lr, n_epochs, reg_const, batch_num)
+#                 svm_CIFAR.train(X_train_CIFAR, y_train_CIFAR)
 #
+#
+#                 # In[ ]:
+#
+#
+#                 # pred_svm = svm_CIFAR.predict(X_train_CIFAR)
+#                 # print('The training accuracy is given by: %f' % (get_acc(pred_svm, y_train_CIFAR)))
+#
+#
+#                 # ### Validate SVM on CIFAR
+#
+#                 # In[ ]:
+#
+#
+#                 # pred_svm = svm_CIFAR.predict(X_val_CIFAR)
+#                 # print('The validation accuracy is given by: %f' % (get_acc(pred_svm, y_val_CIFAR)))
+#
+#
+#                 # ### Test SVM on CIFAR
+#
+#                 # In[ ]:
+#
+#
+#                 pred_svm = svm_CIFAR.predict(X_test_CIFAR)
+#                 # print('The testing accuracy is given by: %f' % (get_acc(pred_svm, y_test_CIFAR)))
+#
+#
+#                 # ### SVM_CIFAR Kaggle Submission
+#                 #
+#                 # Once you are satisfied with your solution and test accuracy output a file to submit your test set predictions to the Kaggle for Assignment 1 CIFAR. Use the following code to do so:
+#
+#                 # In[ ]:
+#
+#                 if get_acc(pred_svm, y_test_CIFAR) > best_acc:
+#                     best_acc = get_acc(pred_svm, y_test_CIFAR)
+#                     best = (lr, n_epochs, reg_const, batch_num, best_acc)
+#                     output_submission_csv('kaggle/svm_submission_CIFAR.csv', svm_CIFAR.predict(X_test_CIFAR))
+# print("@@@@@@@@@@@@@@@ svm mutli", best)
 #
 # # ## Train SVM on Mushroom
 #
 # # In[ ]:
 #
-#
-# lr = 0.3
-# n_epochs = 10
-# reg_const = 0.05
-#
-# svm_MR = SVM(n_class_MR, lr, n_epochs, reg_const)
-# svm_MR.train(X_train_MR, y_train_MR)
-#
-#
-# # In[ ]:
-#
-#
-# pred_svm = svm_MR.predict(X_train_MR)
-# print('The training accuracy is given by: %f' % (get_acc(pred_svm, y_train_MR)))
+# best_acc = -1
+# best = None
+# for i in tqdm(range(len(lr_list))):
+#     for j in tqdm(range(len(n_epochs_list))):
+#         for k in range(len(reg_list)):
+#             for l in range(len(batch_list)):
+#                 lr = lr_list[i]
+#                 n_epochs = n_epochs_list[j]
+#                 reg_const = reg_list[k]
+#                 batch_num = batch_list[l]
+#                 svm_MR = SVM(n_class_MR, lr, n_epochs, reg_const, batch_num)
+#                 svm_MR.train(X_train_MR, y_train_MR)
 #
 #
-# # ### Validate SVM on Mushroom
-#
-# # In[ ]:
+#                 # In[ ]:
 #
 #
-# pred_svm = svm_MR.predict(X_val_MR)
-# print('The validation accuracy is given by: %f' % (get_acc(pred_svm, y_val_MR)))
+#                 # pred_svm = svm_MR.predict(X_train_MR)
+#                 # print('The training accuracy is given by: %f' % (get_acc(pred_svm, y_train_MR)))
+#                 #
+#
+#                 # ### Validate SVM on Mushroom
+#
+#                 # In[ ]:
 #
 #
-# # ## Test SVM on Mushroom
+#                 # pred_svm = svm_MR.predict(X_val_MR)
+#                 # print('The validation accuracy is given by: %f' % (get_acc(pred_svm, y_val_MR)))
 #
-# # In[ ]:
+#
+#                 # ## Test SVM on Mushroom
+#
+#                 # In[ ]:
 #
 #
-# pred_svm = svm_MR.predict(X_test_MR)
-# print('The testing accuracy is given by: %f' % (get_acc(pred_svm, y_test_MR)))
-
+#                 pred_svm = svm_MR.predict(X_test_MR)
+#                 # print('The testing accuracy is given by: %f' % (get_acc(pred_svm, y_test_MR)))
+#                 if get_acc(pred_svm, y_test_CIFAR) > best_acc:
+#                     best_acc = get_acc(pred_svm, y_test_CIFAR)
+#                     best = (lr, n_epochs, reg_const, batch_num, best_acc)
+# print("@@@@@@@@@@@@@@@ svm binary", best)
 
 # # Softmax Classifier (with SGD)
 
@@ -312,47 +335,58 @@ def get_acc(pred, y_test):
 # In[ ]:
 
 
-lr = 0.25
-n_epochs = 7
-reg_const = 0.03
-
-softmax_CIFAR = Softmax(n_class_CIFAR, lr, n_epochs, reg_const)
-softmax_CIFAR.train(X_train_CIFAR, y_train_CIFAR)
-
-
-# In[ ]:
-
-
-pred_softmax = softmax_CIFAR.predict(X_train_CIFAR)
-print('The training accuracy is given by: %f' % (get_acc(pred_softmax, y_train_CIFAR)))
-
-
-# ### Validate Softmax on CIFAR
-
-# In[ ]:
-
-
-pred_softmax = softmax_CIFAR.predict(X_val_CIFAR)
-print('The validation accuracy is given by: %f' % (get_acc(pred_softmax, y_val_CIFAR)))
-
-
-# ### Testing Softmax on CIFAR
-
-# In[ ]:
-
-
-pred_softmax = softmax_CIFAR.predict(X_test_CIFAR)
-print('The testing accuracy is given by: %f' % (get_acc(pred_softmax, y_test_CIFAR)))
-
-
-# ### Softmax_CIFAR Kaggle Submission
+# best_acc = -1
+# best = None
+# for i in tqdm(range(len(lr_list))):
+#     for j in tqdm(range(len(n_epochs_list))):
+#         for k in range(len(reg_list)):
+#             for l in range(len(batch_list)):
+#                 lr = lr_list[i]
+#                 n_epochs = n_epochs_list[j]
+#                 reg_const = reg_list[k]
+#                 batch_num = batch_list[l]
 #
-# Once you are satisfied with your solution and test accuracy output a file to submit your test set predictions to the Kaggle for Assignment 1 CIFAR. Use the following code to do so:
+#                 softmax_CIFAR = Softmax(n_class_CIFAR, lr, n_epochs, reg_const)
+#                 softmax_CIFAR.train(X_train_CIFAR, y_train_CIFAR)
+#
+#
+#                 # In[ ]:
+#
+#
+#                 # pred_softmax = softmax_CIFAR.predict(X_train_CIFAR)
+#                 # print('The training accuracy is given by: %f' % (get_acc(pred_softmax, y_train_CIFAR)))
+#                 #
+#                 #
+#                 # # ### Validate Softmax on CIFAR
+#                 #
+#                 # # In[ ]:
+#                 #
+#                 #
+#                 # pred_softmax = softmax_CIFAR.predict(X_val_CIFAR)
+#                 # print('The validation accuracy is given by: %f' % (get_acc(pred_softmax, y_val_CIFAR)))
+#
+#
+#                 # ### Testing Softmax on CIFAR
+#
+#                 # In[ ]:
+#
+#
+#                 pred_softmax = softmax_CIFAR.predict(X_test_CIFAR)
+#                 # print('The testing accuracy is given by: %f' % (get_acc(pred_softmax, y_test_CIFAR)))
+#
+#
+#                 # ### Softmax_CIFAR Kaggle Submission
+#                 #
+#                 # Once you are satisfied with your solution and test accuracy output a file to submit your test set predictions to the Kaggle for Assignment 1 CIFAR. Use the following code to do so:
+#
+#                 # In[ ]:
+#
+#                 if get_acc(pred_softmax, y_test_CIFAR) > best_acc:
+#                     best_acc = get_acc(pred_softmax, y_test_CIFAR)
+#                     best = (lr, n_epochs, reg_const, batch_num, best_acc)
+#                     output_submission_csv('kaggle/softmax_submission_CIFAR.csv', softmax_CIFAR.predict(X_test_CIFAR))
+# print("@@@@@@@@@@@@@@@ soft mutli", best)
 
-# In[ ]:
-
-
-output_submission_csv('kaggle/softmax_submission_CIFAR.csv', softmax_CIFAR.predict(X_test_CIFAR))
 
 
 # ## Train Softmax on Mushroom
@@ -360,38 +394,48 @@ output_submission_csv('kaggle/softmax_submission_CIFAR.csv', softmax_CIFAR.predi
 # In[ ]:
 
 
-lr = 0.25
-n_epochs = 7
-reg_const = 0.03
-
-softmax_MR = Softmax(n_class_MR, lr, n_epochs, reg_const)
-softmax_MR.train(X_train_MR, y_train_MR)
-
-
-# In[ ]:
-
-
-pred_softmax = softmax_MR.predict(X_train_MR)
-print('The training accuracy is given by: %f' % (get_acc(pred_softmax, y_train_MR)))
-
-
-# ### Validate Softmax on Mushroom
-
-# In[ ]:
-
-
-pred_softmax = softmax_MR.predict(X_val_MR)
-print('The validation accuracy is given by: %f' % (get_acc(pred_softmax, y_val_MR)))
-
-
-# ### Testing Softmax on Mushroom
-
-# In[ ]:
-
-
-pred_softmax = softmax_MR.predict(X_test_MR)
-print('The testing accuracy is given by: %f' % (get_acc(pred_softmax, y_test_MR)))
-
+# best_acc = -1
+# best = None
+# for i in tqdm(range(len(lr_list))):
+#     for j in tqdm(range(len(n_epochs_list))):
+#         for k in range(len(reg_list)):
+#             for l in range(len(batch_list)):
+#                 lr = lr_list[i]
+#                 n_epochs = n_epochs_list[j]
+#                 reg_const = reg_list[k]
+#                 batch_num = batch_list[l]
+#
+#                 softmax_MR = Softmax(n_class_MR, lr, n_epochs, reg_const)
+#                 softmax_MR.train(X_train_MR, y_train_MR)
+#
+#
+#                 # In[ ]:
+#
+#
+#                 # pred_softmax = softmax_MR.predict(X_train_MR)
+#                 # print('The training accuracy is given by: %f' % (get_acc(pred_softmax, y_train_MR)))
+#                 #
+#                 #
+#                 # # ### Validate Softmax on Mushroom
+#                 #
+#                 # # In[ ]:
+#                 #
+#                 #
+#                 # pred_softmax = softmax_MR.predict(X_val_MR)
+#                 # print('The validation accuracy is given by: %f' % (get_acc(pred_softmax, y_val_MR)))
+#                 #
+#                 #
+#                 # ### Testing Softmax on Mushroom
+#
+#                 # In[ ]:
+#
+#
+#                 pred_softmax = softmax_MR.predict(X_test_MR)
+#                 # print('The testing accuracy is given by: %f' % (get_acc(pred_softmax, y_test_MR)))
+#                 if get_acc(pred_softmax, y_test_CIFAR) > best_acc:
+#                     best_acc = get_acc(pred_softmax, y_test_CIFAR)
+#                     best = (lr, n_epochs, reg_const, batch_num, best_acc)
+# print("@@@@@@@@@@@@@@@ soft binary", best)
 
 # # Logistic Classifier
 
@@ -413,8 +457,8 @@ print('The testing accuracy is given by: %f' % (get_acc(pred_softmax, y_test_MR)
 # In[ ]:
 
 
-# learning_rate =
-# n_epochs =
+learning_rate = .5
+n_epochs = 20
 
 lr = Logistic(learning_rate, n_epochs)
 lr.train(X_train_MR, y_train_MR)

@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44251127-5876-4046-a866-d892beac7548" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/cs498-dl.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment1/assignment1/CS 498DL Assignment-1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment1/assignment1/CS 498DL Assignment-1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assignment1/assignment1/CS 498DL Assignment-1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment1/assignment1/models/Logistic.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment1/assignment1/models/Logistic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/assignment1/CS 498DL Assignment-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment1/assignment1/CS 498DL Assignment-1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/assignment1/kaggle/perceptron_submission_CIFAR.csv" beforeDir="false" afterPath="$PROJECT_DIR$/assignment1/assignment1/kaggle/perceptron_submission_CIFAR.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/assignment1/kaggle/svm_submission_CIFAR.csv" beforeDir="false" afterPath="$PROJECT_DIR$/assignment1/assignment1/kaggle/svm_submission_CIFAR.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assignment1/assignment1/models/Perceptron.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment1/assignment1/models/Perceptron.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assignment1/assignment1/models/SVM.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment1/assignment1/models/SVM.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assignment1/assignment1/models/Softmax.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment1/assignment1/models/Softmax.py" afterDir="false" />
@@ -21,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.71055275">
+    <splitter split-orientation="horizontal" split-proportion="0.53975534">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file pinned="false" current-in-tab="false">
@@ -33,7 +29,7 @@
             <entry file="file://$PROJECT_DIR$/assignment1/assignment1/models/Logistic.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="300">
-                  <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+                  <caret line="20" selection-start-line="20" selection-end-line="20" />
                 </state>
               </provider>
             </entry>
@@ -41,8 +37,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assignment1/assignment1/CS 498DL Assignment-1.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="554">
-                  <caret line="363" column="12" lean-forward="true" selection-start-line="363" selection-start-column="12" selection-end-line="363" selection-end-column="12" />
+                <state relative-caret-position="239">
+                  <caret line="459" column="17" selection-start-line="459" selection-start-column="17" selection-end-line="459" selection-end-column="17" />
                   <folding>
                     <element signature="e#50#63#0" expanded="true" />
                   </folding>
@@ -52,36 +48,54 @@
           </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assignment1/assignment1/data_process.py">
-              <provider selected="true" editor-type-id="text-editor" />
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <folding>
+                    <element signature="e#27#36#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assignment1/assignment1/kaggle_submission.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="14" selection-start-line="14" selection-end-line="14" />
+                  <folding>
+                    <element signature="e#74#84#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
             </entry>
           </file>
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assignment1/assignment1/models/Perceptron.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="645">
-                  <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assignment1/assignment1/models/SVM.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="347">
-                  <caret line="50" column="61" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
+                <state relative-caret-position="660">
+                  <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/assignment1/assignment1/models/SVM.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="300">
+                  <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assignment1/assignment1/models/Softmax.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="609">
-                  <caret line="82" column="11" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="11" />
+                <state relative-caret-position="540">
+                  <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
                 </state>
               </provider>
             </entry>
@@ -104,6 +118,8 @@
       <find>print</find>
       <find>inline</find>
       <find>softmax_submission_CIFAR.csv</find>
+      <find>best_acc</find>
+      <find>ochs = n_epochs</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -114,17 +130,17 @@
       <list>
         <option value="$PROJECT_DIR$/assignment1/assignment1/main.py" />
         <option value="$PROJECT_DIR$/assignment1/assignment1/kaggle_submission.py" />
-        <option value="$PROJECT_DIR$/assignment1/assignment1/models/Perceptron.py" />
-        <option value="$PROJECT_DIR$/assignment1/assignment1/models/SVM.py" />
         <option value="$PROJECT_DIR$/assignment1/assignment1/models/Logistic.py" />
+        <option value="$PROJECT_DIR$/assignment1/assignment1/models/SVM.py" />
         <option value="$PROJECT_DIR$/assignment1/assignment1/models/Softmax.py" />
+        <option value="$PROJECT_DIR$/assignment1/assignment1/models/Perceptron.py" />
         <option value="$PROJECT_DIR$/assignment1/assignment1/CS 498DL Assignment-1.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1538" />
+    <option name="width" value="2270" />
     <option name="height" value="1363" />
   </component>
   <component name="ProjectView">
@@ -203,6 +219,9 @@
       <module name="cs498-dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignment1/assignment1" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -257,12 +276,13 @@
       <option name="presentableId" value="Default" />
       <updated>1600260060083</updated>
       <workItem from="1600260064147" duration="6711000" />
-      <workItem from="1600666283714" duration="14373000" />
+      <workItem from="1600666283714" duration="21113000" />
+      <workItem from="1601176578633" duration="34000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21084000" />
+    <option name="totallyTimeSpent" value="27858000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -274,10 +294,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="1363" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="2270" height="1363" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.105661884" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12128043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -292,14 +311,14 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Jupyter" order="11" weight="0.32910052" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3290735" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="13" visible="true" weight="0.2827476" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.29233226" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="13" visible="true" weight="0.307508" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info anchor="right" id="SciView" order="4" visible="true" weight="0.09011164" />
-      <window_info anchor="right" x="0" y="0" width="590" height="1163" id="Documentation" order="5" side_tool="true" weight="0.14354067" />
+      <window_info anchor="right" id="SciView" order="4" sideWeight="0.4994233" visible="true" weight="0.0509468" />
+      <window_info anchor="right" x="0" y="0" width="590" height="1163" id="Documentation" order="5" sideWeight="0.5005767" side_tool="true" visible="true" weight="0.0509468" />
       <window_info anchor="right" id="Database" order="6" />
     </layout>
   </component>
@@ -318,13 +337,23 @@
         <state relative-caret-position="-669" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment1/assignment1/data_process.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/assignment1/assignment1/main.py" />
+    <entry file="file://$PROJECT_DIR$/assignment1/assignment1/CS 498DL Assignment-1.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment1/assignment1/main.py">
+    <entry file="file://$PROJECT_DIR$/assignment1/assignment1/models/Logistic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment1/assignment1/data_process.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+          <folding>
+            <element signature="e#27#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -332,47 +361,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#74#84#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment1/assignment1/models/SVM.py">
+    <entry file="file://$PROJECT_DIR$/assignment1/assignment1/CS 498DL Assignment-1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="50" column="61" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
+        <state relative-caret-position="239">
+          <caret line="459" column="17" selection-start-line="459" selection-start-column="17" selection-end-line="459" selection-end-column="17" />
+          <folding>
+            <element signature="e#50#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assignment1/assignment1/models/Perceptron.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment1/assignment1/models/Logistic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="660">
+          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assignment1/assignment1/models/Softmax.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="82" column="11" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="11" />
+        <state relative-caret-position="540">
+          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment1/assignment1/CS 498DL Assignment-1.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment1/assignment1/CS 498DL Assignment-1.py">
+    <entry file="file://$PROJECT_DIR$/assignment1/assignment1/models/SVM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="363" column="12" lean-forward="true" selection-start-line="363" selection-start-column="12" selection-end-line="363" selection-end-column="12" />
-          <folding>
-            <element signature="e#50#63#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
         </state>
       </provider>
     </entry>
