@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44251127-5876-4046-a866-d892beac7548" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1A_Introduction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1B_Develop_Classifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1A_Introduction.nbconvert.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1A_Introduction.nbconvert.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1B_Develop_Classifier.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1B_Develop_Classifier.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1B_Develop_Classifier.nbconvert.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1B_Develop_Classifier.nbconvert.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment3_p1_starterkit/classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment3_p1_starterkit/classifier.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,22 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignment3_p1_starterkit/kaggle_submission.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignment3_p1_starterkit/classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-371">
-              <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+            <state relative-caret-position="860">
+              <caret line="100" column="31" lean-forward="true" selection-start-line="100" selection-start-column="31" selection-end-line="100" selection-end-column="31" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -41,11 +31,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1B_Develop_Classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2167">
-              <caret line="178" column="38" lean-forward="true" selection-start-line="178" selection-start-column="38" selection-end-line="178" selection-end-column="38" />
+            <state relative-caret-position="2925">
+              <caret line="195" column="32" selection-start-line="195" selection-start-column="32" selection-end-line="195" selection-end-column="32" />
               <folding>
                 <element signature="e#107#116#0" expanded="true" />
-                <marker date="1602840416613" expanded="true" signature="516:629" ph="..." />
+                <marker date="1602842280937" expanded="true" signature="516:629" ph="..." />
               </folding>
             </state>
           </provider>
@@ -62,20 +52,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1A_Introduction_1.nbconvert.ipynb">
+        <entry file="file://$PROJECT_DIR$/assignment3_p2_starterkit/yolo_loss.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignment3_p2_starterkit/yolo_loss_debug_tool.ipynb">
           <provider selected="true" editor-type-id="jupyter-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1A_Introduction.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1688">
-              <caret line="198" column="53" selection-start-line="198" selection-start-column="48" selection-end-line="198" selection-end-column="53" />
-              <folding>
-                <element signature="e#123#132#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/assignment3_p2_starterkit/MP3_P2.ipynb">
+          <provider selected="true" editor-type-id="jupyter-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -131,9 +125,9 @@
       <find>Classifier</find>
       <find>epoch</find>
       <find>flip</find>
+      <find>Adam</find>
       <find>Ada</find>
       <find>group</find>
-      <find>Adam</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -166,7 +160,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1978" />
+    <option name="width" value="1993" />
     <option name="height" value="1371" />
   </component>
   <component name="ProjectView">
@@ -208,11 +202,11 @@
       <recent name="$PROJECT_DIR$/assignment2_updated" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assignment3_p1_starterkit" />
+      <recent name="$PROJECT_DIR$/assignment3_p2_starterkit" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assignment3_p1_starterkit" />
       <recent name="$PROJECT_DIR$/assignment2_updated" />
       <recent name="$PROJECT_DIR$/assignment2_updated/kaggle" />
-      <recent name="$PROJECT_DIR$/assignment1/assignment1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -392,12 +386,12 @@
       <workItem from="1601792733391" duration="541000" />
       <workItem from="1602056778141" duration="39000" />
       <workItem from="1602748657677" duration="5255000" />
-      <workItem from="1602830169902" duration="8420000" />
+      <workItem from="1602830169902" duration="11615000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64119000" />
+    <option name="totallyTimeSpent" value="67314000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -409,10 +403,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1978" height="1371" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1993" height="1371" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24247144" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23441525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -422,14 +415,14 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.12101911" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.16303219" side_tool="true" visible="true" weight="0.15714286" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.16383308" side_tool="true" weight="0.15714286" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Jupyter" order="11" weight="0.32910052" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49844238" weight="0.17698413" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49768162" weight="0.17698413" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.18630573" />
-      <window_info anchor="bottom" id="File Transfer" order="14" sideWeight="0.8369678" visible="true" weight="0.15714286" />
+      <window_info anchor="bottom" id="File Transfer" order="14" sideWeight="0.8361669" visible="true" weight="0.15714286" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -697,9 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1A_Introduction.nbconvert.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1A_Introduction.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1688">
@@ -717,30 +707,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1B_Develop_Classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2925">
+          <caret line="195" column="32" selection-start-line="195" selection-start-column="32" selection-end-line="195" selection-end-column="32" />
+          <folding>
+            <element signature="e#107#116#0" expanded="true" />
+            <marker date="1602842280937" expanded="true" signature="516:629" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1A_Introduction.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1A_Introduction.nbconvert.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment3_p2_starterkit/config.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment3_p2_starterkit/voc2007.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment3_p2_starterkit/MP3_P2.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment3_p2_starterkit/yolo_loss.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment3_p2_starterkit/yolo_loss_debug_tool.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1B_Develop_Classifier.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1B_Develop_Classifier.nbconvert.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1A_Introduction.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1B_Develop_Classifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2167">
-          <caret line="178" column="38" lean-forward="true" selection-start-line="178" selection-start-column="38" selection-end-line="178" selection-end-column="38" />
-          <folding>
-            <element signature="e#107#116#0" expanded="true" />
-            <marker date="1602840416613" expanded="true" signature="516:629" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignment3_p1_starterkit/classifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-371">
-          <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+        <state relative-caret-position="860">
+          <caret line="100" column="31" lean-forward="true" selection-start-line="100" selection-start-column="31" selection-end-line="100" selection-end-column="31" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
