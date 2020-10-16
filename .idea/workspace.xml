@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44251127-5876-4046-a866-d892beac7548" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1A_Introduction.nbconvert.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1A_Introduction.nbconvert.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1B_Develop_Classifier.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1B_Develop_Classifier.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1B_Develop_Classifier.nbconvert.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1B_Develop_Classifier.nbconvert.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assignment3_p1_starterkit/classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment3_p1_starterkit/classifier.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignment3_p1_starterkit/classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="860">
-              <caret line="100" column="31" lean-forward="true" selection-start-line="100" selection-start-column="31" selection-end-line="100" selection-end-column="31" />
+            <state relative-caret-position="738">
+              <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -386,12 +382,12 @@
       <workItem from="1601792733391" duration="541000" />
       <workItem from="1602056778141" duration="39000" />
       <workItem from="1602748657677" duration="5255000" />
-      <workItem from="1602830169902" duration="11615000" />
+      <workItem from="1602830169902" duration="11978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67314000" />
+    <option name="totallyTimeSpent" value="67677000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -404,6 +400,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1993" height="1371" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23441525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -753,8 +750,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignment3_p1_starterkit/classifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="100" column="31" lean-forward="true" selection-start-line="100" selection-start-column="31" selection-end-line="100" selection-end-column="31" />
+        <state relative-caret-position="738">
+          <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
