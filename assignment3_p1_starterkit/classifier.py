@@ -64,7 +64,7 @@ class Classifier(nn.Module):
         self.conv4 = nn.Conv2d(128, 128, kernel_size=3, stride=1, padding=0)
 
         self.conv5 = nn.Conv2d(128, 64, kernel_size=3, stride=1, padding=0)
-        self.fc1 = nn.Linear(64 * 14 * 14, 120)
+        self.fc1 = nn.Linear(64 * 10 * 10, 120)
         self.fc2 = nn.Linear(120, 84)
         self.fc3 = nn.Linear(84, NUM_CLASSES)
 
