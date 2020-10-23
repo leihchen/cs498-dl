@@ -45,7 +45,7 @@ class ResNetLikeBlock(nn.Module):
         identity = x
         out = self.feats(x)
         out += identity
-        # assert(x.shape == self.feats(x).shape)
+        assert(x.shape == self.feats(x).shape)
         return F.relu(out)
 
 class Classifier(nn.Module):
@@ -63,12 +63,8 @@ class Classifier(nn.Module):
         self.block2 = ResNetLikeBlock(128)
         self.conv4 = nn.Conv2d(128, 128, kernel_size=3, stride=1, padding=0)
 
-        self.block3 = ResNetLikeBlock(128)
         self.conv5 = nn.Conv2d(128, 64, kernel_size=3, stride=1, padding=0)
-
-        self.conv6 = nn.Conv2d(64, 32, kernel_size=3, stride=1, padding=0)
-
-        self.fc1 = nn.Linear(32 * 8 * 8, 120)
+        self.fc1 = nn.Linear(64 * 10 * 10, 120)
         self.fc2 = nn.Linear(120, 84)
         self.fc3 = nn.Linear(84, NUM_CLASSES)
 
@@ -87,14 +83,9 @@ class Classifier(nn.Module):
         x = self.block2(x)
         x = self.pool(x)
 
-        x = self.conv4(x)
-        x = self.block3(x)
+        x = F.relu(self.conv4(x))
         x = self.pool(x)
-
-        x = self.conv5(x)
-        x = F.relu(x)
-        x = self.conv6(x)
-        x = F.relu(x)
+        x = sF.relu(elf.conv5(x))
         # print(x.shape)
         x = x.view(x.size()[0], x.shape[1] * x.shape[2] * x.shape[3])
         x = F.relu(self.fc1(x))
