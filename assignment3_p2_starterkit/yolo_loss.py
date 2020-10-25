@@ -171,10 +171,10 @@ class YoloLoss(nn.Module):
             IoU = self.compute_iou(box_pred_this, box_targ_this.view(-1, 4))  # [2 * 1]
             if IoU[0] > IoU[1]:
                 coo_response_mask[2 * i] = 1
-                box_target_iou[2 * i] = IoU[0]
+                box_target_iou[2 * i, 4] = IoU[0]
             else:
                 coo_response_mask[2 * i + 1] = 1
-                box_target_iou[2 * i + 1] = IoU[1]
+                box_target_iou[2 * i + 1, 4] = IoU[1]
         return box_target_iou, coo_response_mask
 
     def forward(self, pred_tensor, target_tensor):
