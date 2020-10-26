@@ -58,7 +58,7 @@ class YoloLoss(nn.Module):
 
         ##### CODE #####
         # obj_rank = classes_pred > 0  #
-        return F.mse_loss(classes_pred, classes_target, reduction='sum')
+        return F.mse_loss(classes_pred, classes_target.detach(), reduction='sum')
 
     def get_regression_loss(self, box_pred_response, box_target_response):
         """
@@ -75,8 +75,8 @@ class YoloLoss(nn.Module):
 
         ##### CODE #####
         return (
-                F.mse_loss(box_pred_response[:, :2], box_target_response[:, :2], reduction='sum') +
-                F.mse_loss(torch.sqrt(box_pred_response[:, 2:4]), torch.sqrt(box_target_response[:, 2:4]),
+                F.mse_loss(box_pred_response[:, :2], box_target_response[:, :2].detach(), reduction='sum') +
+                F.mse_loss(torch.sqrt(box_pred_response[:, 2:4]), torch.sqrt(box_target_response[:, 2:4]).detach(),
                            reduction='sum')
         )
 
@@ -95,7 +95,7 @@ class YoloLoss(nn.Module):
 
         ##### CODE #####
 
-        return F.mse_loss(box_pred_response[:, 4], box_target_response_iou[:, 4], reduction='sum')
+        return F.mse_loss(box_pred_response[:, 4], box_target_response_iou[:, 4].detach(), reduction='sum')
 
     def get_no_object_loss(self, target_tensor, pred_tensor, no_object_mask):
         """
@@ -124,7 +124,7 @@ class YoloLoss(nn.Module):
         no_object_prediction_mask[:, 4] = 1
         no_object_prediction_mask[:, 9] = 1
 
-        return F.mse_loss(no_object_prediction[no_object_prediction_mask], no_object_target[no_object_prediction_mask],
+        return F.mse_loss(no_object_prediction[no_object_prediction_mask], no_object_target[no_object_prediction_mask].detach(),
                           reduction='sum')
 
     def find_best_iou_boxes(self, box_target, box_pred):
@@ -171,10 +171,10 @@ class YoloLoss(nn.Module):
             IoU = self.compute_iou(box_pred_this, box_targ_this.view(-1, 4))  # [2 * 1]
             if IoU[0] > IoU[1]:
                 coo_response_mask[2 * i] = 1
-                box_target_iou[2 * i, 4] = IoU[0]
+                box_target_iou[2 * i, 4] = Variable(IoU[0].detach())
             else:
                 coo_response_mask[2 * i + 1] = 1
-                box_target_iou[2 * i + 1, 4] = IoU[1]
+                box_target_iou[2 * i + 1, 4] = Variable(IoU[1].detach())
         return box_target_iou, coo_response_mask
 
     def forward(self, pred_tensor, target_tensor):
