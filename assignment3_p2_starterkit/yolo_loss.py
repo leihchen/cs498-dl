@@ -226,7 +226,7 @@ class YoloLoss(nn.Module):
         # Compute the No object loss here
 
         ##### CODE #####
-        no_object_loss = self.get_no_object_loss(target_tensor, pred_tensor, no_object_mask)
+        no_object_loss = self.get_no_object_loss(target_tensor.detach(), pred_tensor, no_object_mask)
 
         # Compute the iou's of all bounding boxes and the mask for which bounding box
         # of 2 has the maximum iou the bounding boxes for each grid cell of each image.
@@ -243,11 +243,13 @@ class YoloLoss(nn.Module):
         ##### CODE #####
         box_prediction_response = bounding_box_pred[coo_response_mask].view(-1, 5)
         box_target_response_iou = box_target_iou[coo_response_mask].view(-1, 5)
+        box_target_response_iou = Variable(box_target_response_iou.data)
         box_target_response = bounding_box_target[coo_response_mask].view(-1, 5)
+        box_target_response = Variable(box_target_response.data)
         # Find the class_loss, containing object loss and regression loss
-        class_prediction_loss = self.get_class_prediction_loss(classes_pred, classes_target)
-        regression_loss = self.get_regression_loss(box_prediction_response, box_target_response)
-        contain_conf_loss = self.get_contain_conf_loss(box_prediction_response, box_target_response_iou)
+        class_prediction_loss = self.get_class_prediction_loss(classes_pred, classes_target.detach())
+        regression_loss = self.get_regression_loss(box_prediction_response, box_target_response.detach())
+        contain_conf_loss = self.get_contain_conf_loss(box_prediction_response, box_target_response_iou.detach())
         ##### CODE #####
         total_loss = self.l_noobj * no_object_loss + class_prediction_loss + self.l_coord * regression_loss + contain_conf_loss
         return total_loss / N

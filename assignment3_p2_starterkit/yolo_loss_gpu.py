@@ -214,15 +214,15 @@ class YoloLoss(nn.Module):
         # Hint : Use contains_object_mask
         
         ##### CODE #####                   
-        contains_object_pred = pred_tensor[contains_object_mask].reshape(-1,30)
-        bounding_box_pred = contains_object_pred[:, :10].reshape(-1,5)  # @fixme
+        contains_object_pred = pred_tensor[contains_object_mask].view(-1,30)
+        bounding_box_pred = contains_object_pred[:, :10].contiguous().view(-1,5)  # @fixme
         classes_pred = contains_object_pred[:, 10:]
         # Similarly as above create 2 tensors bounding_box_target and
         # classes_target.
         
         ##### CODE #####
-        contains_object_target = target_tensor[contains_object_mask].reshape(-1,30)
-        bounding_box_target = contains_object_target[:, :10].reshape(-1,5)  # @fixme
+        contains_object_target = target_tensor[contains_object_mask].view(-1,30)
+        bounding_box_target = contains_object_target[:, :10].contiguous().view(-1,5)  # @fixme
         classes_target = contains_object_target[:, 10:]
         # Compute the No object loss here
         
@@ -242,9 +242,9 @@ class YoloLoss(nn.Module):
         # Hint : Use contains_object_response_mask
         
         ##### CODE #####
-        box_prediction_response = bounding_box_pred[coo_response_mask].reshape(-1,5)
-        box_target_response_iou = box_target_iou[coo_response_mask].reshape(-1,5)
-        box_target_response = bounding_box_target[coo_response_mask].resahpe(-1,5)
+        box_prediction_response = bounding_box_pred[coo_response_mask].view(-1,5)
+        box_target_response_iou = box_target_iou[coo_response_mask].view(-1,5)
+        box_target_response = bounding_box_target[coo_response_mask].view(-1,5)
         # Find the class_loss, containing object loss and regression loss
         class_prediction_loss = self.get_class_prediction_loss(classes_pred, classes_target)
         regression_loss = self.get_regression_loss(box_prediction_response, box_target_response)
