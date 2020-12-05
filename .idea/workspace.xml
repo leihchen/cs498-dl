@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44251127-5876-4046-a866-d892beac7548" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assignment3_p2_starterkit/MP3_P2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment3_p1_starterkit/download_data.sh" beforeDir="false" afterPath="$PROJECT_DIR$/assignment3_p1_starterkit/download_data.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment3_p2_starterkit/download_data.sh" beforeDir="false" afterPath="$PROJECT_DIR$/assignment3_p2_starterkit/download_data.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment3_p2_starterkit/yolo_loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment3_p2_starterkit/yolo_loss.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment3_p2_starterkit/yolo_loss_debug_tool.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assignment3_p2_starterkit/yolo_loss_debug_tool.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment3_p2_starterkit/yolo_loss_gpu.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment3_p2_starterkit/yolo_loss_gpu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment3/assignment3_p1_starterkit/MP3_P1A_Introduction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assignment3/assignment3_p1_starterkit/MP3_P1A_Introduction.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment3/assignment3_p1_starterkit/MP3_P1B_Develop_Classifier.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assignment3/assignment3_p1_starterkit/MP3_P1B_Develop_Classifier.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment4-2/MP4_P2_generation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assignment4-2/MP4_P2_generation.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,56 +16,95 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignment3_p2_starterkit/yolo_loss_gpu.py">
+        <entry file="file://$PROJECT_DIR$/assignment3/assignment3_p1_starterkit/classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3075">
-              <caret line="208" column="55" selection-start-line="208" selection-start-column="55" selection-end-line="208" selection-end-column="55" />
+            <state relative-caret-position="1365">
+              <caret line="96" selection-start-line="96" selection-end-line="96" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignment3/assignment3_p1_starterkit/voc_dataloader.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignment1/assignment1/data_process.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignment4-2/gan/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plot_rbf_parameters.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1995">
+              <caret line="141" column="20" selection-start-line="141" selection-start-column="20" selection-end-line="141" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignment1/assignment1/models/Perceptron.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignment1/assignment1/models/Logistic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assignment3_p2_starterkit/yolo_loss.py">
+        <entry file="file://$PROJECT_DIR$/assignment1/assignment1/CS 498DL Assignment-1.ipynb">
+          <provider selected="true" editor-type-id="jupyter-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignment2/assignment2_updated/neural_network.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="170" column="11" selection-start-line="170" selection-start-column="11" selection-end-line="170" selection-end-column="11" />
+            <state relative-caret-position="870">
+              <caret line="63" column="70" selection-start-line="63" selection-start-column="70" selection-end-line="63" selection-end-column="70" />
               <folding>
-                <element signature="e#0#12#0" expanded="true" />
+                <element signature="e#76#107#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignment3_p2_starterkit/download_data.sh">
+        <entry file="file://$USER_HOME$/opt/anaconda3/lib/python3.8/site-packages/numpy/linalg/linalg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-              <folding>
-                <marker date="1603529851912" expanded="true" signature="22:412" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignment3_p2_starterkit/voc2007test.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignment3_p2_starterkit/voc2007.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignment3_p1_starterkit/download_data.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" selection-start-line="13" selection-end-line="22" selection-end-column="15" />
+            <state relative-caret-position="1440">
+              <caret line="96" selection-start-line="96" selection-end-line="96" />
             </state>
           </provider>
         </entry>
@@ -84,22 +120,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>n_epochs =</find>
-      <find>print</find>
-      <find>inline</find>
-      <find>softmax_submission_CIFAR.csv</find>
-      <find>best_acc</find>
-      <find>ochs = n_epochs</find>
-      <find>backward</find>
-      <find>softmax</find>
-      <find>log</find>
-      <find>outputs</find>
-      <find>shuffle</find>
-      <find>NeuralNetwork</find>
-      <find>cross_entropy</find>
-      <find>output_submission_csv</find>
-      <find>output</find>
-      <find>SGD</find>
       <find>cpu</find>
       <find>SimpleClassifier</find>
       <find>Classifier</find>
@@ -114,6 +134,22 @@
       <find>get_no_object_loss</find>
       <find>device</find>
       <find>no_object_mask</find>
+      <find>cuda</find>
+      <find>target</find>
+      <find>zeros</find>
+      <find>box_target_response_iou</find>
+      <find>box_target_iou</find>
+      <find>net</find>
+      <find>best</find>
+      <find>annotation_file_test</find>
+      <find>save</find>
+      <find>fix</find>
+      <find>box_target_response</find>
+      <find>predict_image</find>
+      <find>BatchNorm2d</find>
+      <find>sample_noise</find>
+      <find>plt</find>
+      <find>criterion</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -143,21 +179,35 @@
         <option value="$PROJECT_DIR$/assignment3_p2_starterkit/yolo_loss_gpu.py" />
         <option value="$PROJECT_DIR$/assignment3_p1_starterkit/download_data.sh" />
         <option value="$PROJECT_DIR$/assignment3_p2_starterkit/download_data.sh" />
+        <option value="$PROJECT_DIR$/assignment3_p2_starterkit/MP3_P2.py" />
+        <option value="$PROJECT_DIR$/assignment3_p2_starterkit/eval_voc.py" />
         <option value="$PROJECT_DIR$/assignment3_p2_starterkit/yolo_loss.py" />
+        <option value="$PROJECT_DIR$/assignment4/gan/utils.py" />
+        <option value="$PROJECT_DIR$/assignment4/gan/losses.py" />
+        <option value="$PROJECT_DIR$/assignment4/gan/train.py" />
+        <option value="$PROJECT_DIR$/assignment4/gan/models.py" />
+        <option value="$PROJECT_DIR$/assignment4/rnn/model.py" />
+        <option value="$PROJECT_DIR$/assignment4/MP4_P2_classification.py" />
+        <option value="$PROJECT_DIR$/assignment4-2/rnn/model.py" />
+        <option value="$PROJECT_DIR$/assignment4/gan/spectral_normalization.py" />
+        <option value="$PROJECT_DIR$/tmp/convert.py" />
+        <option value="$PROJECT_DIR$/ec411.py" />
+        <option value="$PROJECT_DIR$/plot_rbf_parameters.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="708" />
+    <option name="x" value="378" />
     <option name="y" value="23" />
-    <option name="width" value="1851" />
-    <option name="height" value="1370" />
+    <option name="width" value="2166" />
+    <option name="height" value="1338" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,40 +218,55 @@
             <path>
               <item name="cs498-dl" type="b2602c69:ProjectViewProjectNode" />
               <item name="cs498-dl" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment3_p1_starterkit" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cs498-dl" type="b2602c69:ProjectViewProjectNode" />
               <item name="cs498-dl" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment3_p2_starterkit" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment1" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cs498-dl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs498-dl" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment1" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment1" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cs498-dl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs498-dl" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment1" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment1" type="462c0819:PsiDirectoryNode" />
+              <item name="mushroom" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assignment2_updated" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assignment2_updated" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assignment3_p2_starterkit" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/tmp" />
+      <recent name="$PROJECT_DIR$/assignment4" />
+      <recent name="$PROJECT_DIR$/assignment3_p2_starterkit" />
       <recent name="$PROJECT_DIR$/assignment3_p1_starterkit" />
-      <recent name="$PROJECT_DIR$/assignment2_updated" />
-      <recent name="$PROJECT_DIR$/assignment2_updated/kaggle" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -216,8 +281,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.neural_network_SGD">
-    <configuration name="CS 498DL Assignment-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.plot_rbf_parameters">
+    <configuration name="MP4_P2_classification" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cs498-dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -225,12 +290,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignment1/assignment1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignment4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignment1/assignment1/CS 498DL Assignment-1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignment4/MP4_P2_classification.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -261,7 +326,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="develop_neural_network (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="convert" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cs498-dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -269,12 +334,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignment2_updated" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tmp" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignment2_updated/develop_neural_network.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tmp/convert.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -283,7 +348,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="develop_neural_network" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ec411" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cs498-dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -291,34 +356,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignment2/assignment2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignment2/assignment2/develop_neural_network.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="get_datasets" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="cs498-dl" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignment2_updated/cifar10" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignment2_updated/cifar10/get_datasets.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ec411.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -349,13 +392,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="plot_rbf_parameters" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="cs498-dl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_rbf_parameters.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.plot_rbf_parameters" />
+        <item itemvalue="Python.ec411" />
+        <item itemvalue="Python.convert" />
+        <item itemvalue="Python.MP4_P2_classification" />
         <item itemvalue="Python.neural_network_SGD" />
-        <item itemvalue="Python.develop_neural_network (1)" />
-        <item itemvalue="Python.get_datasets" />
-        <item itemvalue="Python.develop_neural_network" />
-        <item itemvalue="Python.CS 498DL Assignment-1" />
       </list>
     </recent_temporary>
   </component>
@@ -385,12 +450,39 @@
       <workItem from="1603439946389" duration="4440000" />
       <workItem from="1603451205477" duration="16998000" />
       <workItem from="1603561333465" duration="147000" />
-      <workItem from="1603609881832" duration="1272000" />
+      <workItem from="1603609881832" duration="2906000" />
+      <workItem from="1603721483157" duration="5456000" />
+      <workItem from="1603802464053" duration="11107000" />
+      <workItem from="1603988613555" duration="307000" />
+      <workItem from="1604566327588" duration="400000" />
+      <workItem from="1605338353255" duration="1601000" />
+      <workItem from="1605340299702" duration="6427000" />
+      <workItem from="1605347428006" duration="6888000" />
+      <workItem from="1605417934341" duration="2361000" />
+      <workItem from="1605438597956" duration="2368000" />
+      <workItem from="1605608370059" duration="21000" />
+      <workItem from="1605608548620" duration="5062000" />
+      <workItem from="1605675053757" duration="197000" />
+      <workItem from="1605852009567" duration="2299000" />
+      <workItem from="1605898812288" duration="2170000" />
+      <workItem from="1606021997550" duration="585000" />
+      <workItem from="1606034503482" duration="1826000" />
+      <workItem from="1606051247505" duration="2422000" />
+      <workItem from="1606958085989" duration="196000" />
+      <workItem from="1606958986600" duration="31000" />
+      <workItem from="1606959018806" duration="238000" />
+      <workItem from="1606960557264" duration="196000" />
+      <workItem from="1606998712488" duration="3374000" />
+      <workItem from="1607014412401" duration="4737000" />
+      <workItem from="1607058562393" duration="1665000" />
+      <workItem from="1607071455446" duration="12000" />
+      <workItem from="1607091542615" duration="1259000" />
+      <workItem from="1607098212741" duration="244000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92955000" />
+    <option name="totallyTimeSpent" value="158879000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -402,32 +494,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="708" y="23" width="1851" height="1370" extended-state="0" />
+    <frame x="378" y="23" width="2166" height="1338" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33018345" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24787134" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41401273" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.846263" weight="0.27057865" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.12101911" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.2830941" side_tool="true" weight="0.28275353" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.153737" side_tool="true" visible="true" weight="0.2703583" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32938564" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Jupyter" order="11" weight="0.32910052" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.7169059" visible="true" weight="0.16679905" />
-      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.49920255" weight="0.11631664" />
-      <window_info anchor="bottom" id="File Transfer" order="14" sideWeight="0.8361669" weight="0.15714286" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.86568916" weight="0.30480847" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.6359935" weight="0.5836849" />
+      <window_info anchor="bottom" id="File Transfer" order="14" sideWeight="0.73865813" weight="0.39280125" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info anchor="right" id="SciView" order="4" sideWeight="0.867247" weight="0.1408284" />
-      <window_info anchor="right" x="0" y="0" width="590" height="1163" id="Documentation" order="5" sideWeight="0.132753" side_tool="true" visible="true" weight="0.027237354" />
+      <window_info anchor="right" id="SciView" order="4" sideWeight="0.867247" weight="0.25591296" />
+      <window_info anchor="right" x="0" y="0" width="590" height="1163" id="Documentation" order="5" sideWeight="0.132753" side_tool="true" weight="0.34449762" />
       <window_info anchor="right" id="Database" order="6" />
     </layout>
     <layout-to-restore>
@@ -479,220 +572,234 @@
           <line>229</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ec411.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ec411.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/plot_rbf_parameters.py</url>
+          <line>146</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/cs498_dl$develop_neural_network__1_.coverage" NAME="develop_neural_network (1) Coverage Results" MODIFIED="1601611277528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment2_updated" />
     <SUITE FILE_PATH="coverage/cs498_dl$CS_498DL_Assignment_1.coverage" NAME="CS 498DL Assignment-1 Coverage Results" MODIFIED="1600781187821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment1/assignment1" />
+    <SUITE FILE_PATH="coverage/cs498_dl$convert.coverage" NAME="convert Coverage Results" MODIFIED="1607003950364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tmp" />
+    <SUITE FILE_PATH="coverage/cs498_dl$ec411.coverage" NAME="ec411 Coverage Results" MODIFIED="1607006158904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cs498_dl$MP4_P2_classification.coverage" NAME="MP4_P2_classification Coverage Results" MODIFIED="1605614240021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment4" />
     <SUITE FILE_PATH="coverage/cs498_dl$neural_network_SGD.coverage" NAME="neural_network_SGD Coverage Results" MODIFIED="1601620028307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment2_updated" />
+    <SUITE FILE_PATH="coverage/cs498_dl$plot_rbf_parameters.coverage" NAME="plot_rbf_parameters Coverage Results" MODIFIED="1607058684247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assignment1/assignment1/data_process.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#27#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment2/assignment2/develop_neural_network.ipynb" />
-    <entry file="file://$PROJECT_DIR$/assignment2/assignment2/utils/gradient_check.py" />
-    <entry file="file://$PROJECT_DIR$/assignment2_updated/cifar10/get_datasets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment2/assignment2/models/neural_net.py" />
-    <entry file="file://$PROJECT_DIR$/assignment2/assignment2/develop_neural_network.py" />
-    <entry file="file:///usr/local/lib/python3.7/site-packages/numpy/core/fromnumeric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment2_updated/kaggle/svm_submission_CIFAR.csv" />
-    <entry file="file://$PROJECT_DIR$/assignment2_updated/kaggle/nn_3layer_sgd_submission.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-149116" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment2_updated/utils/data_process.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment2_updated/kaggle_submission.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment1/assignment1/CS 498DL Assignment-1.ipynb">
+    <entry file="file://$PROJECT_DIR$/assignment4/img04:49:39.png" />
+    <entry file="file://$PROJECT_DIR$/assignment4/img05:25:09.png" />
+    <entry file="file://$PROJECT_DIR$/assignment4/p1sn/img19:29:10.png" />
+    <entry file="file://$PROJECT_DIR$/assignment4/p1sn/img05:35:06.png" />
+    <entry file="file://$PROJECT_DIR$/assignment4/img07:49:59.png" />
+    <entry file="file://$PROJECT_DIR$/assignment4/p1sn/img08:27:29.png" />
+    <entry file="file://$PROJECT_DIR$/assignment4/p1sn/img07:32:00.png" />
+    <entry file="file://$PROJECT_DIR$/assignment4/GAN_debugging.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment1/assignment1/models/Softmax.py">
+    <entry file="file://$PROJECT_DIR$/assignment4/MP4_P1.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment4/MP4_P1SN.nbconvert.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment4/MP4_P1.nbconvert.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/opt/anaconda3/lib/python3.8/site-packages/torch/nn/modules/sparse.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="30" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="30" />
+        <state relative-caret-position="230">
+          <caret line="56" column="52" lean-forward="true" selection-start-line="56" selection-start-column="52" selection-end-line="56" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment1/assignment1/models/SVM.py">
+    <entry file="file://$USER_HOME$/opt/anaconda3/lib/python3.8/site-packages/torch/nn/modules/linear.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="75" selection-start-line="58" selection-start-column="75" selection-end-line="58" selection-end-column="75" />
+        <state relative-caret-position="157">
+          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment2_updated/neural_network.py">
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2019.1/python_stubs/-1643451635/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2220">
-          <caret line="153" selection-start-line="153" selection-end-line="153" selection-end-column="33" />
-          <folding>
-            <element signature="e#76#107#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="678">
+          <caret line="5917" selection-start-line="5917" selection-end-line="5917" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment1/assignment1/models/Perceptron.py">
+    <entry file="file://$PROJECT_DIR$/assignment4/MP4_P2_generation.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/opt/anaconda3/lib/python3.8/site-packages/torch/nn/functional.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+        <state relative-caret-position="33735">
+          <caret line="2260" selection-start-line="2260" selection-end-line="2260" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment2_updated/netid_mp2_code/models/neural_net.py">
+    <entry file="file://$USER_HOME$/opt/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#29#56#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="14280">
+          <caret line="960" selection-start-line="960" selection-end-line="960" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$USER_HOME$/opt/anaconda3/lib/python3.8/site-packages/torch/nn/modules/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10725">
+          <caret line="726" selection-start-line="726" selection-end-line="726" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment4/MP4_P2_classification.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment4-2/MP4_P2_classification.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment2_updated/models/neural_net.py">
+    <entry file="file://$PROJECT_DIR$/assignment4/MP4_P2_classification.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="84" column="23" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="23" />
+        <state relative-caret-position="585">
+          <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+          <folding>
+            <element signature="e#50#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment4-2/MP4_P2_classification.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment4/kaggle_rnn_submission.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment4-2/MP4_P2_classification.nbconvert.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment4-2/MP4_P2_generation_ec.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment4/rnn/generate.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment4/rnn/helpers.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment4/rnn/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="43" column="83" selection-start-line="43" selection-start-column="83" selection-end-line="43" selection-end-column="83" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment4/gan/spectral_normalization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment4/gan/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment4/The-Wonderful-Wizard-of-Oz.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment4/gan/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment4/gan/losses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="100" column="53" selection-start-line="100" selection-start-column="53" selection-end-line="100" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment4/gan/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="85" column="85" selection-start-line="85" selection-start-column="85" selection-end-line="85" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment4-2/MP4_P2_generation.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/business_clean.json" />
+    <entry file="file://$PROJECT_DIR$/tmp/convert.py" />
+    <entry file="file://$PROJECT_DIR$/assignment4 copy/MP4_P2_classification.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/opt/anaconda3/lib/python3.8/tokenize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="426" lean-forward="true" selection-start-line="426" selection-end-line="426" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment2/assignment2_updated/models/neural_net.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
           <folding>
             <element signature="e#29#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
+    <entry file="file://$PROJECT_DIR$/ec411.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="315">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment2_updated/neural_network.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment2_updated/develop_neural_network.py">
+    <entry file="file://$PROJECT_DIR$/assignment3/assignment3_p1_starterkit/classifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="757">
-          <caret line="90" column="82" selection-start-line="90" selection-start-column="82" selection-end-line="90" selection-end-column="82" />
-          <folding>
-            <element signature="e#286#317#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment2_updated/kaggle/nn_2layer_sgd_submission.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="266" column="5" selection-start-line="266" selection-start-column="5" selection-end-line="266" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment2_updated/neural_network_SGD.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="757">
-          <caret line="117" column="61" selection-start-line="117" selection-start-column="61" selection-end-line="117" selection-end-column="61" />
-          <folding>
-            <element signature="e#90#121#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment1/assignment1/models/Logistic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment1/assignment1/kaggle_submission.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#74#84#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment3_p1_starterkit/kaggle_submission.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1A_Introduction_1.nbconvert.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/torch/nn/modules/activation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1A_Introduction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1688">
-          <caret line="198" column="53" selection-start-line="198" selection-start-column="48" selection-end-line="198" selection-end-column="53" />
-          <folding>
-            <element signature="e#123#132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1B_Develop_Classifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2925">
-          <caret line="195" column="32" selection-start-line="195" selection-start-column="32" selection-end-line="195" selection-end-column="32" />
-          <folding>
-            <element signature="e#107#116#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1A_Introduction.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1A_Introduction.nbconvert.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment3_p1_starterkit/classifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="818">
+        <state relative-caret-position="1365">
           <caret line="96" selection-start-line="96" selection-end-line="96" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
@@ -700,96 +807,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment3_p2_starterkit/config.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1B_Develop_Classifier.nbconvert.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment3_p1_starterkit/voc_dataloader.py">
+    <entry file="file://$PROJECT_DIR$/assignment3/assignment3_p1_starterkit/voc_dataloader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment3_p1_starterkit/MP3_P1B_Develop_Classifier.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment3_p2_starterkit/yolo_loss_debug_tool.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment3_p2_starterkit/MP3_P2.nbconvert.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment3_p2_starterkit/detector.pth">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="555">
-          <caret line="37" column="15" lean-forward="true" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment3_p2_starterkit/output.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment3_p2_starterkit/my_solution.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment3_p2_starterkit/MP3_P2.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment3_p2_starterkit/eval_voc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+        <state relative-caret-position="330">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment3_p2_starterkit/yolo_loss_gpu.py">
+    <entry file="file://$PROJECT_DIR$/assignment1/assignment1/data_process.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3075">
-          <caret line="208" column="55" selection-start-line="208" selection-start-column="55" selection-end-line="208" selection-end-column="55" />
+        <state relative-caret-position="450">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment4-2/gan/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment3_p2_starterkit/download_data.sh">
+    <entry file="file://$PROJECT_DIR$/plot_rbf_parameters.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        <state relative-caret-position="1995">
+          <caret line="141" column="20" selection-start-line="141" selection-start-column="20" selection-end-line="141" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment1/assignment1/models/Perceptron.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment1/assignment1/models/Logistic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment2/assignment2_updated/neural_network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="63" column="70" selection-start-line="63" selection-start-column="70" selection-end-line="63" selection-end-column="70" />
           <folding>
-            <marker date="1603529851912" expanded="true" signature="22:412" ph="..." />
+            <element signature="e#76#107#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment3_p2_starterkit/voc2007test.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment3_p2_starterkit/voc2007.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment3_p1_starterkit/download_data.sh">
+    <entry file="file://$USER_HOME$/opt/anaconda3/lib/python3.8/site-packages/numpy/linalg/linalg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="22" selection-end-column="15" />
+        <state relative-caret-position="1440">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment3_p2_starterkit/yolo_loss.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="170" column="11" selection-start-line="170" selection-start-column="11" selection-end-line="170" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/assignment1/assignment1/CS 498DL Assignment-1.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
   </component>
 </project>

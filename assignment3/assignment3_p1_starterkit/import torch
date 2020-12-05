@@ -1,0 +1,130 @@
+import torch
+import torch.nn as nn
+from torch.autograd import Variable
+import torch.nn.functional as F
+from torch import optim
+import numpy as np
+
+NUM_CLASSES = 21
+
+class SimpleClassifier(nn.Module):
+    def __init__(self):
+        super(SimpleClassifier, self).__init__()
+        self.conv1 = nn.Conv2d(3, 64, 5)
+        self.conv2 = nn.Conv2d(64, 32, 3)
+        self.conv3 = nn.Conv2d(32, 16, 3)
+        self.pool = nn.MaxPool2d(2, 2)
+        self.fc1 = nn.Linear(16 * 26 * 26, 120)
+        self.fc2 = nn.Linear(120, 84)
+        self.fc3 = nn.Linear(84, NUM_CLASSES)
+
+    def forward(self, x):
+        x = self.pool(F.relu(self.conv1(x)))
+        x = self.pool(F.relu(self.conv2(x)))
+        x = self.pool(F.relu(self.conv3(x)))
+        print(x.shape)
+        x = x.view(x.size()[0], 16 * 26 * 26)
+        x = F.relu(self.fc1(x))
+        x = F.relu(self.fc2(x))
+        x = self.fc3(x)
+        return x
+
+class ResNetLikeBlock(nn.Module):
+    def __init__(self, channel):
+        super(ResNetLikeBlock, self).__init__()
+        self.feats = nn.Sequential(
+            nn.BatchNorm2d(channel),
+            nn.ReLU(),
+            nn.Conv2d(channel, channel, kernel_size=3, stride=1, padding=1),
+            nn.BatchNorm2d(channel),
+            nn.ReLU(),
+            nn.Conv2d(channel, channel, kernel_size=3, stride=1, padding=1),
+            nn.BatchNorm2d(channel),
+        )
+    def forward(self, x):
+        identity = x
+        out = self.feats(x)
+        out += identity
+        assert(x.shape == self.feats(x).shape)
+        return F.relu(out)
+
+class Classifier(nn.Module):
+    # TODO: implement me
+    def __init__(self):
+        super(Classifier, self).__init__()
+        self.conv1 = nn.Conv2d(3, 64, kernel_size=3, stride=1, padding=0)
+
+#         self.block0 = ResNetLikeBlock(128)
+        self.conv2 = nn.Conv2d(64, 32, kernel_size=3, stride=1, padding=0)
+
+        self.block1 = ResNetLikeBlock(32)
+        self.conv3 = nn.Conv2d(32, 16, kernel_size=3, stride=1, padding=0)
+
+        self.block2 = ResNetLikeBlock(16)
+        self.conv4 = nn.Conv2d(16, 8, kernel_size=3, stride=1, padding=0)
+
+        self.conv5 = nn.Conv2d(8, 8, kernel_size=3, stride=1, padding=0)
+        self.fc1 = nn.Linear(8 * 25 * 25, 120)
+        self.fc2 = nn.Linear(120, 84)
+        self.fc3 = nn.Linear(84, NUM_CLASSES)
+
+        self.pool = nn.MaxPool2d(2, 2)
+
+    def forward(self, x):
+        x = F.relu(self.conv1(x))
+#         x = self.block0(x)
+#         x = self.pool(x)
+
+        x = self.conv2(x)
+        x = self.block1(x)
+        x = self.pool(x)
+
+        x = self.conv3(x)
+        x = self.block2(x)
+        x = self.pool(x)
+
+        x = F.relu(self.conv4(x))
+        x = F.relu(self.conv5(x))
+        x = self.pool(x)
+#         print(x.shape)
+        x = x.view(x.size()[0], x.shape[1] * x.shape[2] * x.shape[3])
+        x = F.relu(self.fc1(x))
+        x = F.relu(self.fc2(x))
+        x = self.fc3(x)
+        return x
+
+
+Loss for Training on Epoch 2 is 0.23815177381038666
+Starting epoch number 3
+Loss for Training on Epoch 3 is 0.23589816689491272
+Starting epoch number 4
+Loss for Training on Epoch 4 is 0.2328614741563797
+Starting epoch number 5
+Loss for Training on Epoch 5 is 0.2266092300415039
+-------  Class: aeroplane        AP:   0.1463  -------
+-------  Class: bicycle          AP:   0.0723  -------
+-------  Class: bird             AP:   0.1044  -------
+-------  Class: boat             AP:   0.0783  -------
+-------  Class: bottle           AP:   0.0801  -------
+-------  Class: bus              AP:   0.0336  -------
+-------  Class: car              AP:   0.1556  -------
+-------  Class: cat              AP:   0.1197  -------
+-------  Class: chair            AP:   0.2603  -------
+-------  Class: cow              AP:   0.0368  -------
+-------  Class: diningtable      AP:   0.2030  -------
+-------  Class: dog              AP:   0.1310  -------
+-------  Class: horse            AP:   0.0828  -------
+-------  Class: motorbike        AP:   0.0445  -------
+-------  Class: person           AP:   0.6036  -------
+-------  Class: pottedplant      AP:   0.0996  -------
+-------  Class: sheep            AP:   0.0450  -------
+-------  Class: sofa             AP:   0.1271  -------
+-------  Class: train            AP:   0.0545  -------
+-------  Class: tvmonitor        AP:   0.0929  -------
+mAP: 0.1286
+Avg loss: 0.22504934743046762
+Evaluating classifier
+Mean Precision Score for Testing on Epoch 5 is 0.1285768557343978
+Starting epoch number 6
+Loss for Training on Epoch 6 is 0.2243717461824417
+Starting epoch number 7

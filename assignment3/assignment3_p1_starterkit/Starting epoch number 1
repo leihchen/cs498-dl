@@ -1,0 +1,704 @@
+Starting epoch number 1
+Loss for Training on Epoch 1 is 0.3825242519378662
+-------  Class: aeroplane        AP:   0.0598  -------
+-------  Class: bicycle          AP:   0.0903  -------
+-------  Class: bird             AP:   0.0476  -------
+-------  Class: boat             AP:   0.0807  -------
+-------  Class: bottle           AP:   0.0372  -------
+-------  Class: bus              AP:   0.0844  -------
+-------  Class: car              AP:   0.2287  -------
+-------  Class: cat              AP:   0.0588  -------
+-------  Class: chair            AP:   0.1064  -------
+-------  Class: cow              AP:   0.0252  -------
+-------  Class: diningtable      AP:   0.0396  -------
+-------  Class: dog              AP:   0.0687  -------
+-------  Class: horse            AP:   0.0454  -------
+-------  Class: motorbike        AP:   0.0791  -------
+-------  Class: person           AP:   0.4701  -------
+-------  Class: pottedplant      AP:   0.0453  -------
+-------  Class: sheep            AP:   0.0163  -------
+-------  Class: sofa             AP:   0.0559  -------
+-------  Class: train            AP:   0.1831  -------
+-------  Class: tvmonitor        AP:   0.0503  -------
+mAP: 0.0936
+Avg loss: 0.2673300478607416
+Evaluating classifier
+Mean Precision Score for Testing on Epoch 1 is 0.09364820640323404
+Starting epoch number 2
+Loss for Training on Epoch 2 is 0.25095611810684204
+Starting epoch number 3
+Loss for Training on Epoch 3 is 0.2286677211523056
+Starting epoch number 4
+Loss for Training on Epoch 4 is 0.21900644898414612
+Starting epoch number 5
+Loss for Training on Epoch 5 is 0.21056096255779266
+-------  Class: aeroplane        AP:   0.4193  -------
+-------  Class: bicycle          AP:   0.0954  -------
+-------  Class: bird             AP:   0.1404  -------
+-------  Class: boat             AP:   0.2282  -------
+-------  Class: bottle           AP:   0.0843  -------
+-------  Class: bus              AP:   0.0908  -------
+-------  Class: car              AP:   0.4018  -------
+-------  Class: cat              AP:   0.2438  -------
+-------  Class: chair            AP:   0.3130  -------
+-------  Class: cow              AP:   0.0832  -------
+-------  Class: diningtable      AP:   0.1771  -------
+-------  Class: dog              AP:   0.1709  -------
+-------  Class: horse            AP:   0.1881  -------
+-------  Class: motorbike        AP:   0.1670  -------
+-------  Class: person           AP:   0.5956  -------
+-------  Class: pottedplant      AP:   0.1001  -------
+-------  Class: sheep            AP:   0.0827  -------
+-------  Class: sofa             AP:   0.1361  -------
+-------  Class: train            AP:   0.0836  -------
+-------  Class: tvmonitor        AP:   0.1746  -------
+mAP: 0.1988
+Avg loss: 0.21591390557587148
+Evaluating classifier
+Mean Precision Score for Testing on Epoch 5 is 0.19879326835769745
+Starting epoch number 6
+Loss for Training on Epoch 6 is 0.20667731761932373
+Starting epoch number 7
+Loss for Training on Epoch 7 is 0.20305755734443665
+Starting epoch number 8
+Loss for Training on Epoch 8 is 0.1976834386587143
+Starting epoch number 9
+Loss for Training on Epoch 9 is 0.19288726150989532
+Starting epoch number 10
+Loss for Training on Epoch 10 is 0.1917037069797516
+-------  Class: aeroplane        AP:   0.4935  -------
+-------  Class: bicycle          AP:   0.1725  -------
+-------  Class: bird             AP:   0.1344  -------
+-------  Class: boat             AP:   0.2663  -------
+-------  Class: bottle           AP:   0.1112  -------
+-------  Class: bus              AP:   0.1223  -------
+-------  Class: car              AP:   0.4771  -------
+-------  Class: cat              AP:   0.3055  -------
+-------  Class: chair            AP:   0.3714  -------
+-------  Class: cow              AP:   0.1374  -------
+-------  Class: diningtable      AP:   0.2293  -------
+-------  Class: dog              AP:   0.2184  -------
+-------  Class: horse            AP:   0.2594  -------
+-------  Class: motorbike        AP:   0.1964  -------
+-------  Class: person           AP:   0.6340  -------
+-------  Class: pottedplant      AP:   0.1071  -------
+-------  Class: sheep            AP:   0.1761  -------
+-------  Class: sofa             AP:   0.1867  -------
+-------  Class: train            AP:   0.3823  -------
+-------  Class: tvmonitor        AP:   0.1690  -------
+mAP: 0.2575
+Avg loss: 0.20543578863143921
+Evaluating classifier
+Mean Precision Score for Testing on Epoch 10 is 0.2575132427679687
+Starting epoch number 11
+Loss for Training on Epoch 11 is 0.18668334186077118
+Starting epoch number 12
+Loss for Training on Epoch 12 is 0.1827496886253357
+Starting epoch number 13
+Loss for Training on Epoch 13 is 0.17981837689876556
+Starting epoch number 14
+Loss for Training on Epoch 14 is 0.17537856101989746
+Starting epoch number 15
+Loss for Training on Epoch 15 is 0.17360348999500275
+-------  Class: aeroplane        AP:   0.5362  -------
+-------  Class: bicycle          AP:   0.2267  -------
+-------  Class: bird             AP:   0.1744  -------
+-------  Class: boat             AP:   0.3253  -------
+-------  Class: bottle           AP:   0.1376  -------
+-------  Class: bus              AP:   0.1576  -------
+-------  Class: car              AP:   0.5288  -------
+-------  Class: cat              AP:   0.3373  -------
+-------  Class: chair            AP:   0.3942  -------
+-------  Class: cow              AP:   0.1240  -------
+-------  Class: diningtable      AP:   0.2813  -------
+-------  Class: dog              AP:   0.1948  -------
+-------  Class: horse            AP:   0.4389  -------
+-------  Class: motorbike        AP:   0.2749  -------
+-------  Class: person           AP:   0.6817  -------
+-------  Class: pottedplant      AP:   0.1305  -------
+-------  Class: sheep            AP:   0.2055  -------
+-------  Class: sofa             AP:   0.2548  -------
+-------  Class: train            AP:   0.4304  -------
+-------  Class: tvmonitor        AP:   0.2948  -------
+mAP: 0.3065
+Avg loss: 0.19208659119904042
+Evaluating classifier
+Mean Precision Score for Testing on Epoch 15 is 0.3064930655186705
+Starting epoch number 16
+Loss for Training on Epoch 16 is 0.16952259838581085
+Starting epoch number 17
+Loss for Training on Epoch 17 is 0.16452530026435852
+Starting epoch number 18
+Loss for Training on Epoch 18 is 0.16268859803676605
+Starting epoch number 19
+Loss for Training on Epoch 19 is 0.1625691056251526
+Starting epoch number 20
+Loss for Training on Epoch 20 is 0.1597892791032791
+-------  Class: aeroplane        AP:   0.5137  -------
+-------  Class: bicycle          AP:   0.1403  -------
+-------  Class: bird             AP:   0.1946  -------
+-------  Class: boat             AP:   0.3128  -------
+-------  Class: bottle           AP:   0.1481  -------
+-------  Class: bus              AP:   0.1635  -------
+-------  Class: car              AP:   0.4753  -------
+-------  Class: cat              AP:   0.3275  -------
+-------  Class: chair            AP:   0.3795  -------
+-------  Class: cow              AP:   0.1074  -------
+-------  Class: diningtable      AP:   0.2359  -------
+-------  Class: dog              AP:   0.2348  -------
+-------  Class: horse            AP:   0.4473  -------
+-------  Class: motorbike        AP:   0.3058  -------
+-------  Class: person           AP:   0.7186  -------
+-------  Class: pottedplant      AP:   0.1278  -------
+-------  Class: sheep            AP:   0.1701  -------
+-------  Class: sofa             AP:   0.2114  -------
+-------  Class: train            AP:   0.4721  -------
+-------  Class: tvmonitor        AP:   0.2909  -------
+mAP: 0.2989
+Avg loss: 0.20329824090003967
+Evaluating classifier
+Mean Precision Score for Testing on Epoch 20 is 0.2988783641611651
+Starting epoch number 21
+Loss for Training on Epoch 21 is 0.15941907465457916
+Starting epoch number 22
+Loss for Training on Epoch 22 is 0.15457485616207123
+Starting epoch number 23
+Loss for Training on Epoch 23 is 0.15203450620174408
+Starting epoch number 24
+Loss for Training on Epoch 24 is 0.1503196507692337
+Starting epoch number 25
+Loss for Training on Epoch 25 is 0.14620240032672882
+-------  Class: aeroplane        AP:   0.5729  -------
+-------  Class: bicycle          AP:   0.2451  -------
+-------  Class: bird             AP:   0.2334  -------
+-------  Class: boat             AP:   0.3221  -------
+-------  Class: bottle           AP:   0.1360  -------
+-------  Class: bus              AP:   0.1936  -------
+-------  Class: car              AP:   0.5304  -------
+-------  Class: cat              AP:   0.3587  -------
+-------  Class: chair            AP:   0.4140  -------
+-------  Class: cow              AP:   0.1407  -------
+-------  Class: diningtable      AP:   0.2640  -------
+-------  Class: dog              AP:   0.2561  -------
+-------  Class: horse            AP:   0.4849  -------
+-------  Class: motorbike        AP:   0.3529  -------
+-------  Class: person           AP:   0.7513  -------
+-------  Class: pottedplant      AP:   0.1405  -------
+-------  Class: sheep            AP:   0.1465  -------
+-------  Class: sofa             AP:   0.2402  -------
+-------  Class: train            AP:   0.4837  -------
+-------  Class: tvmonitor        AP:   0.2842  -------
+mAP: 0.3276
+Avg loss: 0.19485642649233342
+Evaluating classifier
+Mean Precision Score for Testing on Epoch 25 is 0.3275506177668772
+Starting epoch number 26
+Loss for Training on Epoch 26 is 0.14026103913784027
+Starting epoch number 27
+Loss for Training on Epoch 27 is 0.1406908631324768
+Starting epoch number 28
+Loss for Training on Epoch 28 is 0.1405039280653
+Starting epoch number 29
+Loss for Training on Epoch 29 is 0.13812139630317688
+Starting epoch number 30
+Loss for Training on Epoch 30 is 0.12910188734531403
+-------  Class: aeroplane        AP:   0.5420  -------
+-------  Class: bicycle          AP:   0.2027  -------
+-------  Class: bird             AP:   0.2447  -------
+-------  Class: boat             AP:   0.3150  -------
+-------  Class: bottle           AP:   0.1408  -------
+-------  Class: bus              AP:   0.1829  -------
+-------  Class: car              AP:   0.5153  -------
+-------  Class: cat              AP:   0.3344  -------
+-------  Class: chair            AP:   0.3894  -------
+-------  Class: cow              AP:   0.1249  -------
+-------  Class: diningtable      AP:   0.2616  -------
+-------  Class: dog              AP:   0.2504  -------
+-------  Class: horse            AP:   0.4722  -------
+-------  Class: motorbike        AP:   0.3575  -------
+-------  Class: person           AP:   0.7620  -------
+-------  Class: pottedplant      AP:   0.1536  -------
+-------  Class: sheep            AP:   0.1490  -------
+-------  Class: sofa             AP:   0.2888  -------
+-------  Class: train            AP:   0.4299  -------
+-------  Class: tvmonitor        AP:   0.2984  -------
+mAP: 0.3208
+Avg loss: 0.2115261934697628
+Evaluating classifier
+Mean Precision Score for Testing on Epoch 30 is 0.320777594822517
+Starting epoch number 31
+Loss for Training on Epoch 31 is 0.1308613270521164
+Starting epoch number 32
+Loss for Training on Epoch 32 is 0.12987513840198517
+Starting epoch number 33
+Loss for Training on Epoch 33 is 0.12261469662189484
+Starting epoch number 34
+Loss for Training on Epoch 34 is 0.1230837032198906
+Starting epoch number 35
+Loss for Training on Epoch 35 is 0.1188199520111084
+-------  Class: aeroplane        AP:   0.4933  -------
+-------  Class: bicycle          AP:   0.1934  -------
+-------  Class: bird             AP:   0.2258  -------
+-------  Class: boat             AP:   0.2676  -------
+-------  Class: bottle           AP:   0.1176  -------
+-------  Class: bus              AP:   0.1368  -------
+-------  Class: car              AP:   0.4398  -------
+-------  Class: cat              AP:   0.3185  -------
+-------  Class: chair            AP:   0.3515  -------
+-------  Class: cow              AP:   0.1497  -------
+-------  Class: diningtable      AP:   0.2213  -------
+-------  Class: dog              AP:   0.2392  -------
+-------  Class: horse            AP:   0.4394  -------
+-------  Class: motorbike        AP:   0.3631  -------
+-------  Class: person           AP:   0.7329  -------
+-------  Class: pottedplant      AP:   0.1703  -------
+-------  Class: sheep            AP:   0.1488  -------
+-------  Class: sofa             AP:   0.2073  -------
+-------  Class: train            AP:   0.4736  -------
+-------  Class: tvmonitor        AP:   0.2580  -------
+mAP: 0.2974
+Avg loss: 0.2296512521803379
+Evaluating classifier
+Mean Precision Score for Testing on Epoch 35 is 0.29738797945702233
+Starting epoch number 36
+Loss for Training on Epoch 36 is 0.11801128834486008
+Starting epoch number 37
+Loss for Training on Epoch 37 is 0.11094751209020615
+Starting epoch number 38
+Loss for Training on Epoch 38 is 0.10434669256210327
+Starting epoch number 39
+Loss for Training on Epoch 39 is 0.10112836211919785
+Starting epoch number 40
+Loss for Training on Epoch 40 is 0.10022985935211182
+-------  Class: aeroplane        AP:   0.5459  -------
+-------  Class: bicycle          AP:   0.2672  -------
+-------  Class: bird             AP:   0.2454  -------
+-------  Class: boat             AP:   0.2536  -------
+-------  Class: bottle           AP:   0.1034  -------
+-------  Class: bus              AP:   0.1641  -------
+-------  Class: car              AP:   0.5172  -------
+-------  Class: cat              AP:   0.3420  -------
+-------  Class: chair            AP:   0.3831  -------
+-------  Class: cow              AP:   0.1491  -------
+-------  Class: diningtable      AP:   0.2541  -------
+-------  Class: dog              AP:   0.2525  -------
+-------  Class: horse            AP:   0.4666  -------
+-------  Class: motorbike        AP:   0.3633  -------
+-------  Class: person           AP:   0.7525  -------
+-------  Class: pottedplant      AP:   0.1327  -------
+-------  Class: sheep            AP:   0.1339  -------
+-------  Class: sofa             AP:   0.2583  -------
+-------  Class: train            AP:   0.4730  -------
+-------  Class: tvmonitor        AP:   0.2550  -------
+mAP: 0.3157
+Avg loss: 0.2344774693250656
+Evaluating classifier
+Mean Precision Score for Testing on Epoch 40 is 0.31565352680367165
+Starting epoch number 41
+Loss for Training on Epoch 41 is 0.09995971620082855
+Starting epoch number 42
+Loss for Training on Epoch 42 is 0.10010587424039841
+Starting epoch number 43
+Loss for Training on Epoch 43 is 0.09051954001188278
+Starting epoch number 44
+Loss for Training on Epoch 44 is 0.08506202697753906
+Starting epoch number 45
+Loss for Training on Epoch 45 is 0.0879625454545021
+-------  Class: aeroplane        AP:   0.5274  -------
+-------  Class: bicycle          AP:   0.2311  -------
+-------  Class: bird             AP:   0.2116  -------
+-------  Class: boat             AP:   0.3172  -------
+-------  Class: bottle           AP:   0.1083  -------
+-------  Class: bus              AP:   0.1599  -------
+-------  Class: car              AP:   0.4714  -------
+-------  Class: cat              AP:   0.3007  -------
+-------  Class: chair            AP:   0.4028  -------
+-------  Class: cow              AP:   0.1498  -------
+-------  Class: diningtable      AP:   0.2921  -------
+-------  Class: dog              AP:   0.2423  -------
+-------  Class: horse            AP:   0.4567  -------
+-------  Class: motorbike        AP:   0.3761  -------
+-------  Class: person           AP:   0.7428  -------
+-------  Class: pottedplant      AP:   0.1469  -------
+-------  Class: sheep            AP:   0.1747  -------
+-------  Class: sofa             AP:   0.2732  -------
+-------  Class: train            AP:   0.5411  -------
+-------  Class: tvmonitor        AP:   0.2104  -------
+mAP: 0.3168
+Avg loss: 0.23977504223585128
+Evaluating classifier
+Mean Precision Score for Testing on Epoch 45 is 0.3168219075102173
+Starting epoch number 46
+Loss for Training on Epoch 46 is 0.08083081245422363
+Starting epoch number 47
+Loss for Training on Epoch 47 is 0.07478763163089752
+Starting epoch number 48
+Loss for Training on Epoch 48 is 0.07533394545316696
+Starting epoch number 49
+Loss for Training on Epoch 49 is 0.07484497129917145
+Starting epoch number 50
+Loss for Training on Epoch 50 is 0.07879211753606796
+-------  Class: aeroplane        AP:   0.5082  -------
+-------  Class: bicycle          AP:   0.2201  -------
+-------  Class: bird             AP:   0.2554  -------
+-------  Class: boat             AP:   0.2745  -------
+-------  Class: bottle           AP:   0.1167  -------
+-------  Class: bus              AP:   0.1693  -------
+-------  Class: car              AP:   0.4251  -------
+-------  Class: cat              AP:   0.3251  -------
+-------  Class: chair            AP:   0.3889  -------
+-------  Class: cow              AP:   0.1406  -------
+-------  Class: diningtable      AP:   0.2759  -------
+-------  Class: dog              AP:   0.2320  -------
+-------  Class: horse            AP:   0.4204  -------
+-------  Class: motorbike        AP:   0.3713  -------
+-------  Class: person           AP:   0.7290  -------
+-------  Class: pottedplant      AP:   0.1218  -------
+-------  Class: sheep            AP:   0.1572  -------
+-------  Class: sofa             AP:   0.2428  -------
+-------  Class: train            AP:   0.4973  -------
+-------  Class: tvmonitor        AP:   0.2264  -------
+mAP: 0.3049
+Avg loss: 0.27567801512777806
+Evaluating classifier
+Mean Precision Score for Testing on Epoch 50 is 0.3049011652917637
+Starting epoch number 51
+Loss for Training on Epoch 51 is 0.07004088163375854
+Starting epoch number 52
+Loss for Training on Epoch 52 is 0.06466074287891388
+Starting epoch number 53
+Loss for Training on Epoch 53 is 0.06643747538328171
+Starting epoch number 54
+Loss for Training on Epoch 54 is 0.06889025121927261
+Starting epoch number 55
+Loss for Training on Epoch 55 is 0.05620395764708519
+-------  Class: aeroplane        AP:   0.5090  -------
+-------  Class: bicycle          AP:   0.2789  -------
+-------  Class: bird             AP:   0.2459  -------
+-------  Class: boat             AP:   0.2453  -------
+-------  Class: bottle           AP:   0.0941  -------
+-------  Class: bus              AP:   0.1333  -------
+-------  Class: car              AP:   0.4481  -------
+-------  Class: cat              AP:   0.3201  -------
+-------  Class: chair            AP:   0.3808  -------
+-------  Class: cow              AP:   0.1389  -------
+-------  Class: diningtable      AP:   0.2666  -------
+-------  Class: dog              AP:   0.2371  -------
+-------  Class: horse            AP:   0.4110  -------
+-------  Class: motorbike        AP:   0.3514  -------
+-------  Class: person           AP:   0.7315  -------
+-------  Class: pottedplant      AP:   0.1266  -------
+-------  Class: sheep            AP:   0.1879  -------
+-------  Class: sofa             AP:   0.2316  -------
+-------  Class: train            AP:   0.4943  -------
+-------  Class: tvmonitor        AP:   0.2046  -------
+mAP: 0.3018
+Avg loss: 0.3061977971345186
+Evaluating classifier
+Mean Precision Score for Testing on Epoch 55 is 0.3018430866422465
+Starting epoch number 56
+Loss for Training on Epoch 56 is 0.06228506565093994
+Starting epoch number 57
+Loss for Training on Epoch 57 is 0.05277135968208313
+Starting epoch number 58
+Loss for Training on Epoch 58 is 0.04353434592485428
+Starting epoch number 59
+Loss for Training on Epoch 59 is 0.04324856027960777
+Starting epoch number 60
+Loss for Training on Epoch 60 is 0.04082194343209267
+-------  Class: aeroplane        AP:   0.5219  -------
+-------  Class: bicycle          AP:   0.2296  -------
+-------  Class: bird             AP:   0.2189  -------
+-------  Class: boat             AP:   0.2441  -------
+-------  Class: bottle           AP:   0.1123  -------
+-------  Class: bus              AP:   0.1954  -------
+-------  Class: car              AP:   0.4497  -------
+-------  Class: cat              AP:   0.2733  -------
+-------  Class: chair            AP:   0.3285  -------
+-------  Class: cow              AP:   0.1319  -------
+-------  Class: diningtable      AP:   0.2498  -------
+-------  Class: dog              AP:   0.1995  -------
+-------  Class: horse            AP:   0.4163  -------
+-------  Class: motorbike        AP:   0.2851  -------
+-------  Class: person           AP:   0.7228  -------
+-------  Class: pottedplant      AP:   0.1168  -------
+-------  Class: sheep            AP:   0.1509  -------
+-------  Class: sofa             AP:   0.2063  -------
+-------  Class: train            AP:   0.5245  -------
+-------  Class: tvmonitor        AP:   0.2042  -------
+mAP: 0.2891
+Avg loss: 0.3569560296833515
+Evaluating classifier
+Mean Precision Score for Testing on Epoch 60 is 0.2890859189738165
+Starting epoch number 61
+Loss for Training on Epoch 61 is 0.042618218809366226
+Starting epoch number 62
+Loss for Training on Epoch 62 is 0.049015358090400696
+Starting epoch number 63
+Loss for Training on Epoch 63 is 0.04125833511352539
+Starting epoch number 64
+Loss for Training on Epoch 64 is 0.03262932226061821
+Starting epoch number 65
+Loss for Training on Epoch 65 is 0.0391598641872406
+-------  Class: aeroplane        AP:   0.5350  -------
+-------  Class: bicycle          AP:   0.2391  -------
+-------  Class: bird             AP:   0.2643  -------
+-------  Class: boat             AP:   0.2337  -------
+-------  Class: bottle           AP:   0.1118  -------
+-------  Class: bus              AP:   0.2285  -------
+-------  Class: car              AP:   0.4485  -------
+-------  Class: cat              AP:   0.3046  -------
+-------  Class: chair            AP:   0.3563  -------
+-------  Class: cow              AP:   0.1133  -------
+-------  Class: diningtable      AP:   0.2525  -------
+-------  Class: dog              AP:   0.2216  -------
+-------  Class: horse            AP:   0.4204  -------
+-------  Class: motorbike        AP:   0.2950  -------
+-------  Class: person           AP:   0.7146  -------
+-------  Class: pottedplant      AP:   0.1157  -------
+-------  Class: sheep            AP:   0.1643  -------
+-------  Class: sofa             AP:   0.2286  -------
+-------  Class: train            AP:   0.5133  -------
+-------  Class: tvmonitor        AP:   0.2177  -------
+mAP: 0.2989
+Avg loss: 0.3643660396337509
+Evaluating classifier
+Mean Precision Score for Testing on Epoch 65 is 0.2989486481725711
+Starting epoch number 66
+Loss for Training on Epoch 66 is 0.03322538733482361
+Starting epoch number 67
+Loss for Training on Epoch 67 is 0.029381830245256424
+Starting epoch number 68
+Loss for Training on Epoch 68 is 0.028988322243094444
+Starting epoch number 69
+Loss for Training on Epoch 69 is 0.027208393439650536
+Starting epoch number 70
+Loss for Training on Epoch 70 is 0.03087334707379341
+-------  Class: aeroplane        AP:   0.5323  -------
+-------  Class: bicycle          AP:   0.2774  -------
+-------  Class: bird             AP:   0.2501  -------
+-------  Class: boat             AP:   0.2765  -------
+-------  Class: bottle           AP:   0.1048  -------
+-------  Class: bus              AP:   0.1535  -------
+-------  Class: car              AP:   0.4682  -------
+-------  Class: cat              AP:   0.3190  -------
+-------  Class: chair            AP:   0.3496  -------
+-------  Class: cow              AP:   0.1248  -------
+-------  Class: diningtable      AP:   0.2768  -------
+-------  Class: dog              AP:   0.2227  -------
+-------  Class: horse            AP:   0.4106  -------
+-------  Class: motorbike        AP:   0.3117  -------
+-------  Class: person           AP:   0.7293  -------
+-------  Class: pottedplant      AP:   0.1288  -------
+-------  Class: sheep            AP:   0.1718  -------
+-------  Class: sofa             AP:   0.2476  -------
+-------  Class: train            AP:   0.5042  -------
+-------  Class: tvmonitor        AP:   0.2274  -------
+mAP: 0.3044
+Avg loss: 0.411127158254385
+Evaluating classifier
+Mean Precision Score for Testing on Epoch 70 is 0.3043585645884894
+Starting epoch number 71
+Loss for Training on Epoch 71 is 0.04136244207620621
+Starting epoch number 72
+Loss for Training on Epoch 72 is 0.053852297365665436
+Starting epoch number 73
+Loss for Training on Epoch 73 is 0.03977392613887787
+Starting epoch number 74
+Loss for Training on Epoch 74 is 0.029267609119415283
+Starting epoch number 75
+Loss for Training on Epoch 75 is 0.035155605524778366
+-------  Class: aeroplane        AP:   0.4803  -------
+-------  Class: bicycle          AP:   0.2471  -------
+-------  Class: bird             AP:   0.2429  -------
+-------  Class: boat             AP:   0.2981  -------
+-------  Class: bottle           AP:   0.1011  -------
+-------  Class: bus              AP:   0.1371  -------
+-------  Class: car              AP:   0.4510  -------
+-------  Class: cat              AP:   0.2840  -------
+-------  Class: chair            AP:   0.3639  -------
+-------  Class: cow              AP:   0.1055  -------
+-------  Class: diningtable      AP:   0.2507  -------
+-------  Class: dog              AP:   0.2018  -------
+-------  Class: horse            AP:   0.4131  -------
+-------  Class: motorbike        AP:   0.2791  -------
+-------  Class: person           AP:   0.7033  -------
+-------  Class: pottedplant      AP:   0.1146  -------
+-------  Class: sheep            AP:   0.1550  -------
+-------  Class: sofa             AP:   0.2489  -------
+-------  Class: train            AP:   0.5246  -------
+-------  Class: tvmonitor        AP:   0.2094  -------
+mAP: 0.2906
+Avg loss: 0.41887740343809127
+Evaluating classifier
+Mean Precision Score for Testing on Epoch 75 is 0.29057417884597253
+Starting epoch number 76
+Loss for Training on Epoch 76 is 0.02600814774632454
+Starting epoch number 77
+Loss for Training on Epoch 77 is 0.02400445193052292
+Starting epoch number 78
+Loss for Training on Epoch 78 is 0.024083396419882774
+Starting epoch number 79
+Loss for Training on Epoch 79 is 0.022647647187113762
+Starting epoch number 80
+Loss for Training on Epoch 80 is 0.017656048759818077
+-------  Class: aeroplane        AP:   0.5111  -------
+-------  Class: bicycle          AP:   0.2663  -------
+-------  Class: bird             AP:   0.2500  -------
+-------  Class: boat             AP:   0.2162  -------
+-------  Class: bottle           AP:   0.0986  -------
+-------  Class: bus              AP:   0.1628  -------
+-------  Class: car              AP:   0.4788  -------
+-------  Class: cat              AP:   0.3293  -------
+-------  Class: chair            AP:   0.3371  -------
+-------  Class: cow              AP:   0.1110  -------
+-------  Class: diningtable      AP:   0.2524  -------
+-------  Class: dog              AP:   0.2214  -------
+-------  Class: horse            AP:   0.4305  -------
+-------  Class: motorbike        AP:   0.3126  -------
+-------  Class: person           AP:   0.7100  -------
+-------  Class: pottedplant      AP:   0.1062  -------
+-------  Class: sheep            AP:   0.1346  -------
+-------  Class: sofa             AP:   0.2176  -------
+-------  Class: train            AP:   0.4638  -------
+-------  Class: tvmonitor        AP:   0.2142  -------
+mAP: 0.2912
+Avg loss: 0.4586531735956669
+Evaluating classifier
+Mean Precision Score for Testing on Epoch 80 is 0.29122475173137197
+Starting epoch number 81
+Loss for Training on Epoch 81 is 0.014906816184520721
+Starting epoch number 82
+Loss for Training on Epoch 82 is 0.023992910981178284
+Starting epoch number 83
+Loss for Training on Epoch 83 is 0.042143724858760834
+Starting epoch number 84
+Loss for Training on Epoch 84 is 0.024939484894275665
+Starting epoch number 85
+Loss for Training on Epoch 85 is 0.019661203026771545
+-------  Class: aeroplane        AP:   0.4995  -------
+-------  Class: bicycle          AP:   0.2808  -------
+-------  Class: bird             AP:   0.2468  -------
+-------  Class: boat             AP:   0.2512  -------
+-------  Class: bottle           AP:   0.0935  -------
+-------  Class: bus              AP:   0.1225  -------
+-------  Class: car              AP:   0.4292  -------
+-------  Class: cat              AP:   0.2979  -------
+-------  Class: chair            AP:   0.3352  -------
+-------  Class: cow              AP:   0.1030  -------
+-------  Class: diningtable      AP:   0.2659  -------
+-------  Class: dog              AP:   0.2180  -------
+-------  Class: horse            AP:   0.3931  -------
+-------  Class: motorbike        AP:   0.3025  -------
+-------  Class: person           AP:   0.7083  -------
+-------  Class: pottedplant      AP:   0.0960  -------
+-------  Class: sheep            AP:   0.1421  -------
+-------  Class: sofa             AP:   0.2225  -------
+-------  Class: train            AP:   0.5071  -------
+-------  Class: tvmonitor        AP:   0.2021  -------
+mAP: 0.2859
+Avg loss: 0.46199282333254815
+Evaluating classifier
+Mean Precision Score for Testing on Epoch 85 is 0.28586384060397585
+Starting epoch number 86
+Loss for Training on Epoch 86 is 0.030717123299837112
+Starting epoch number 87
+Loss for Training on Epoch 87 is 0.04030707851052284
+Starting epoch number 88
+Loss for Training on Epoch 88 is 0.021845011040568352
+Starting epoch number 89
+Loss for Training on Epoch 89 is 0.016736334189772606
+Starting epoch number 90
+Loss for Training on Epoch 90 is 0.014467239379882812
+-------  Class: aeroplane        AP:   0.5127  -------
+-------  Class: bicycle          AP:   0.2907  -------
+-------  Class: bird             AP:   0.2760  -------
+-------  Class: boat             AP:   0.2991  -------
+-------  Class: bottle           AP:   0.0939  -------
+-------  Class: bus              AP:   0.1389  -------
+-------  Class: car              AP:   0.4817  -------
+-------  Class: cat              AP:   0.3171  -------
+-------  Class: chair            AP:   0.3612  -------
+-------  Class: cow              AP:   0.1123  -------
+-------  Class: diningtable      AP:   0.2735  -------
+-------  Class: dog              AP:   0.2263  -------
+-------  Class: horse            AP:   0.4117  -------
+-------  Class: motorbike        AP:   0.3280  -------
+-------  Class: person           AP:   0.7214  -------
+-------  Class: pottedplant      AP:   0.1062  -------
+-------  Class: sheep            AP:   0.1485  -------
+-------  Class: sofa             AP:   0.2282  -------
+-------  Class: train            AP:   0.5277  -------
+-------  Class: tvmonitor        AP:   0.2060  -------
+mAP: 0.3031
+Avg loss: 0.48237738832831384
+Evaluating classifier
+Mean Precision Score for Testing on Epoch 90 is 0.3030536880764757
+Starting epoch number 91
+Loss for Training on Epoch 91 is 0.012273072265088558
+Starting epoch number 92
+Loss for Training on Epoch 92 is 0.011129527352750301
+Starting epoch number 93
+Loss for Training on Epoch 93 is 0.01583581045269966
+Starting epoch number 94
+Loss for Training on Epoch 94 is 0.020130975171923637
+Starting epoch number 95
+Loss for Training on Epoch 95 is 0.025064749643206596
+-------  Class: aeroplane        AP:   0.5146  -------
+-------  Class: bicycle          AP:   0.2603  -------
+-------  Class: bird             AP:   0.2364  -------
+-------  Class: boat             AP:   0.2273  -------
+-------  Class: bottle           AP:   0.0946  -------
+-------  Class: bus              AP:   0.1340  -------
+-------  Class: car              AP:   0.4581  -------
+-------  Class: cat              AP:   0.3161  -------
+-------  Class: chair            AP:   0.3570  -------
+-------  Class: cow              AP:   0.0944  -------
+-------  Class: diningtable      AP:   0.2560  -------
+-------  Class: dog              AP:   0.2208  -------
+-------  Class: horse            AP:   0.3846  -------
+-------  Class: motorbike        AP:   0.3145  -------
+-------  Class: person           AP:   0.7082  -------
+-------  Class: pottedplant      AP:   0.1060  -------
+-------  Class: sheep            AP:   0.1674  -------
+-------  Class: sofa             AP:   0.2255  -------
+-------  Class: train            AP:   0.5480  -------
+-------  Class: tvmonitor        AP:   0.1975  -------
+mAP: 0.2911
+Avg loss: 0.486832270771265
+Evaluating classifier
+Mean Precision Score for Testing on Epoch 95 is 0.29106151348881776
+Starting epoch number 96
+Loss for Training on Epoch 96 is 0.01093228068202734
+Starting epoch number 97
+Loss for Training on Epoch 97 is 0.013622391037642956
+Starting epoch number 98
+Loss for Training on Epoch 98 is 0.016084611415863037
+Starting epoch number 99
+Loss for Training on Epoch 99 is 0.007098598871380091
+Starting epoch number 100
+Loss for Training on Epoch 100 is 0.005436203442513943
+-------  Class: aeroplane        AP:   0.5170  -------
+-------  Class: bicycle          AP:   0.2993  -------
+-------  Class: bird             AP:   0.2496  -------
+-------  Class: boat             AP:   0.2311  -------
+-------  Class: bottle           AP:   0.0969  -------
+-------  Class: bus              AP:   0.1242  -------
+-------  Class: car              AP:   0.4545  -------
+-------  Class: cat              AP:   0.2993  -------
+-------  Class: chair            AP:   0.3446  -------
+-------  Class: cow              AP:   0.1066  -------
+-------  Class: diningtable      AP:   0.2598  -------
+-------  Class: dog              AP:   0.2329  -------
+-------  Class: horse            AP:   0.3929  -------
+-------  Class: motorbike        AP:   0.2944  -------
+-------  Class: person           AP:   0.7147  -------
+-------  Class: pottedplant      AP:   0.1126  -------
+-------  Class: sheep            AP:   0.1526  -------
+-------  Class: sofa             AP:   0.2315  -------
+-------  Class: train            AP:   0.5435  -------
+-------  Class: tvmonitor        AP:   0.2141  -------
+mAP: 0.2936
+Avg loss: 0.5254041083157063
+Evaluating classifier
+Mean Precision Score for Testing on Epoch 100 is 0.29360796245840504
